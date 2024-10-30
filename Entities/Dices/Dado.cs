@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Mestre_de_Rpg.Entities.Dices
+{
+    internal static class Dado
+    {
+        public static Random rolagem = new Random();
+
+        public static int RolarDado(int QtdDados)
+        {
+
+            if (QtdDados == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                int total = 0;
+
+                for (int i = 0; i < QtdDados; i++)
+                {
+                    total += rolagem.Next(1, 7);
+                }
+                return total;
+            }
+        }
+    }
+}
