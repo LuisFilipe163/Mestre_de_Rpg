@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicial));
             menuStrip1 = new MenuStrip();
             campanhaToolStripMenuItem = new ToolStripMenuItem();
             adicionarCampanhaToolStripMenuItem = new ToolStripMenuItem();
@@ -37,7 +38,6 @@
             dadosToolStripMenuItem = new ToolStripMenuItem();
             d4 = new Button();
             d6 = new Button();
-            d8 = new Button();
             d10 = new Button();
             d100 = new Button();
             d20 = new Button();
@@ -52,8 +52,10 @@
             lbResultado = new Label();
             lbValorResultado = new Label();
             label1 = new Label();
-            textBox1 = new TextBox();
+            tbModificador = new TextBox();
             btnRolar = new Button();
+            btLimpar = new Button();
+            d8 = new Button();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nUDd4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nUDd6).BeginInit();
@@ -133,17 +135,6 @@
             d6.Text = "d6";
             d6.UseVisualStyleBackColor = true;
             d6.Click += Dice_Click;
-            // 
-            // d8
-            // 
-            d8.Location = new Point(241, 62);
-            d8.Margin = new Padding(3, 4, 3, 4);
-            d8.Name = "d8";
-            d8.Size = new Size(106, 38);
-            d8.TabIndex = 4;
-            d8.Text = "d8";
-            d8.UseVisualStyleBackColor = true;
-            d8.Click += Dice_Click;
             // 
             // d10
             // 
@@ -279,12 +270,12 @@
             label1.TabIndex = 18;
             label1.Text = "+";
             // 
-            // textBox1
+            // tbModificador
             // 
-            textBox1.Location = new Point(850, 65);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(159, 33);
-            textBox1.TabIndex = 19;
+            tbModificador.Location = new Point(850, 65);
+            tbModificador.Name = "tbModificador";
+            tbModificador.Size = new Size(159, 33);
+            tbModificador.TabIndex = 19;
             // 
             // btnRolar
             // 
@@ -296,13 +287,36 @@
             btnRolar.UseVisualStyleBackColor = true;
             btnRolar.Click += btnRolar_Click;
             // 
+            // btLimpar
+            // 
+            btLimpar.Location = new Point(402, 188);
+            btLimpar.Name = "btLimpar";
+            btLimpar.Size = new Size(94, 29);
+            btLimpar.TabIndex = 21;
+            btLimpar.Text = "Limpar";
+            btLimpar.UseVisualStyleBackColor = true;
+            btLimpar.Click += btLimpar_Click;
+            // 
+            // d8
+            // 
+            d8.Location = new Point(241, 62);
+            d8.Margin = new Padding(3, 4, 3, 4);
+            d8.Name = "d8";
+            d8.Size = new Size(106, 38);
+            d8.TabIndex = 22;
+            d8.Text = "d8";
+            d8.UseVisualStyleBackColor = true;
+            d8.Click += Dice_Click;
+            // 
             // frmInicial
             // 
             AutoScaleDimensions = new SizeF(9F, 26F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1262, 673);
+            Controls.Add(d8);
+            Controls.Add(btLimpar);
             Controls.Add(btnRolar);
-            Controls.Add(textBox1);
+            Controls.Add(tbModificador);
             Controls.Add(label1);
             Controls.Add(lbValorResultado);
             Controls.Add(lbResultado);
@@ -317,15 +331,15 @@
             Controls.Add(d20);
             Controls.Add(d100);
             Controls.Add(d10);
-            Controls.Add(d8);
             Controls.Add(d6);
             Controls.Add(d4);
             Controls.Add(menuStrip1);
             Font = new Font("Pixel UniCode", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
             Margin = new Padding(3, 4, 3, 4);
             Name = "frmInicial";
-            Text = "frmInicial";
+            Text = "Mesa do Mestre";
             WindowState = FormWindowState.Maximized;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
@@ -350,7 +364,6 @@
         private ToolStripSeparator toolStripSeparator1;
         private Button d4;
         private Button d6;
-        private Button d8;
         private Button d10;
         private Button d100;
         private Button d20;
@@ -365,7 +378,9 @@
         private Label lbResultado;
         private Label lbValorResultado;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox tbModificador;
         private Button btnRolar;
+        private Button btLimpar;
+        private Button d8;
     }
 }

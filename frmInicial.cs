@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,20 +14,20 @@ namespace Mestre_de_Rpg
 {
     public partial class frmInicial : Form
     {
-        public NumericUpDown[] quantidadeDados;
+        public Dictionary<NumericUpDown, int> dados;
 
         public frmInicial()
         {
             InitializeComponent();
-            quantidadeDados = new NumericUpDown[]
+            dados = new Dictionary<NumericUpDown, int>()
             {
-                nUDd4,
-                nUDd6,
-                nUDd8,
-                nUDd10,
-                nUDd12,
-                nUDd20,
-                nUDd100
+                {nUDd4, 4 },
+                {nUDd6, 6 },
+                {nUDd8, 8 },
+                {nUDd10, 10},
+                {nUDd12, 12},
+                {nUDd20, 20},
+                {nUDd100, 100},
             };
         }
 
@@ -63,12 +64,35 @@ namespace Mestre_de_Rpg
 
         private void btnRolar_Click(object sender, EventArgs e)
         {
-            foreach (NumericUpDown qtdados in quantidadeDados)
+            List<int> totalResultado = [];
+
+            foreach (var logicaDados in dados)
             {
-                if (qtdados.Value > 0) 
+                NumericUpDown qtddados = logicaDados.Key;
+                int qtdlados = logicaDados.Value;
+
+                if (qtddados.Value > 0)
                 {
-                    //lbValorResultado.Text = RolarDado((int)nUDd4.Value).ToString();
+                    for (int i = 0; i < qtddados.Value; i++)
+                    {
+                        int resultado = Dado.RolarDados(1, qtdlados);
+                        totalResultado.Add(resultado);
+                    }
+                    MessageBox.Show($"{qtddados.Value} dados de {qtdlados} lados rolados, resultados: {string.Join(", ", totalResultado)}");
                 }
+            }
+            int modificador;
+            if (int.TryParse(tbModificador.Text, out modificador))
+            {
+                lbValorResultado.Text = (totalResultado.Sum() + modificador).ToString();
+            }
+        }
+
+        private void btLimpar_Click(object sender, EventArgs e)
+        {
+            foreach (var valor in dados.Keys) 
+            {
+                valor.Value = 0;
             }
         }
     }

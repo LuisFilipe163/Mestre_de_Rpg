@@ -10,7 +10,7 @@ namespace Mestre_de_Rpg.Entities.Dices
     {
         public static Random rolagem = new Random();
 
-        public static int RolarDado(int QtdDados)
+        public static int RolarDados(int QtdDados, int QtdLados)
         {
 
             if (QtdDados == 0)
@@ -23,7 +23,7 @@ namespace Mestre_de_Rpg.Entities.Dices
 
                 for (int i = 0; i < QtdDados; i++)
                 {
-                    total += rolagem.Next(1, 7);
+                    total += rolagem.Next(1, QtdLados + 1);
                 }
                 return total;
             }
