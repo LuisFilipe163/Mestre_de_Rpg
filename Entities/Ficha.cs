@@ -1,8 +1,8 @@
-﻿using Mesa_do_Mestre.Classes.Contracts;
+﻿using Mestre_de_Rpg.Entities.Contracts;
 
-namespace Mesa_do_Mestre.Classes
+namespace Mestre_de_Rpg.Entities
 {
-    public abstract class Ficha : IFicha
+    internal abstract class Ficha : IFicha
     {
         #region Variaveis
         private string nomePersonagem;

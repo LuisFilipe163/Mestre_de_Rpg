@@ -1,6 +1,6 @@
-﻿namespace Mesa_do_Mestre.Classes.Contracts
+﻿namespace Mestre_de_Rpg.Entities.Contracts
 {
-    public interface IFicha
+    internal interface IFicha
     {
         public void CadastroFicha();
     }

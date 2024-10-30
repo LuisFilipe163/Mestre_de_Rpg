@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.IO;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using Mesa_do_Mestre.Classes;
+using Mestre_de_Rpg.Entities;
 
 namespace Mesa_do_Mestre
 {

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mesa_do_Mestre.Classes
+namespace Mestre_de_Rpg.Entities
 {
-    public class FichaInimigo : Ficha
+    internal class FichaInimigo : Ficha
     {
         public enum Classe
         {
