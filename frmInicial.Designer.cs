@@ -31,9 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicial));
             menuStrip1 = new MenuStrip();
             campanhaToolStripMenuItem = new ToolStripMenuItem();
-            adicionarCampanhaToolStripMenuItem = new ToolStripMenuItem();
-            camapnhasToolStripMenuItem = new ToolStripMenuItem();
-            aventurasToolStripMenuItem = new ToolStripMenuItem();
+            tsmiAdicionarAventura = new ToolStripMenuItem();
+            tsmiRemoverAventura = new ToolStripMenuItem();
+            tsmiAventuras = new ToolStripMenuItem();
+            tsmiAventura1 = new ToolStripMenuItem();
             toolStripSeparator1 = new ToolStripSeparator();
             dadosToolStripMenuItem = new ToolStripMenuItem();
             d4 = new Button();
@@ -56,6 +57,7 @@
             btLimpar = new Button();
             d8 = new Button();
             tbModificador = new MaskedTextBox();
+            carregarJogadoresToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nUDd4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nUDd6).BeginInit();
@@ -80,33 +82,39 @@
             // 
             // campanhaToolStripMenuItem
             // 
-            campanhaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { adicionarCampanhaToolStripMenuItem, camapnhasToolStripMenuItem, aventurasToolStripMenuItem, toolStripSeparator1 });
+            campanhaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmiAdicionarAventura, tsmiRemoverAventura, tsmiAventuras, toolStripSeparator1, carregarJogadoresToolStripMenuItem });
             campanhaToolStripMenuItem.Name = "campanhaToolStripMenuItem";
-            campanhaToolStripMenuItem.Size = new Size(94, 26);
-            campanhaToolStripMenuItem.Text = "Campanha";
+            campanhaToolStripMenuItem.Size = new Size(87, 26);
+            campanhaToolStripMenuItem.Text = "Aventura";
             // 
-            // adicionarCampanhaToolStripMenuItem
+            // tsmiAdicionarAventura
             // 
-            adicionarCampanhaToolStripMenuItem.Name = "adicionarCampanhaToolStripMenuItem";
-            adicionarCampanhaToolStripMenuItem.Size = new Size(223, 26);
-            adicionarCampanhaToolStripMenuItem.Text = "Adicionar Aventura";
+            tsmiAdicionarAventura.Name = "tsmiAdicionarAventura";
+            tsmiAdicionarAventura.Size = new Size(236, 26);
+            tsmiAdicionarAventura.Text = "Adicionar Aventura";
             // 
-            // camapnhasToolStripMenuItem
+            // tsmiRemoverAventura
             // 
-            camapnhasToolStripMenuItem.Name = "camapnhasToolStripMenuItem";
-            camapnhasToolStripMenuItem.Size = new Size(223, 26);
-            camapnhasToolStripMenuItem.Text = "Excluir Aventura";
+            tsmiRemoverAventura.Name = "tsmiRemoverAventura";
+            tsmiRemoverAventura.Size = new Size(236, 26);
+            tsmiRemoverAventura.Text = "Excluir Aventura";
             // 
-            // aventurasToolStripMenuItem
+            // tsmiAventuras
             // 
-            aventurasToolStripMenuItem.Name = "aventurasToolStripMenuItem";
-            aventurasToolStripMenuItem.Size = new Size(223, 26);
-            aventurasToolStripMenuItem.Text = "Aventuras";
+            tsmiAventuras.DropDownItems.AddRange(new ToolStripItem[] { tsmiAventura1 });
+            tsmiAventuras.Name = "tsmiAventuras";
+            tsmiAventuras.Size = new Size(236, 26);
+            tsmiAventuras.Text = "Aventuras";
+            // 
+            // tsmiAventura1
+            // 
+            tsmiAventura1.Name = "tsmiAventura1";
+            tsmiAventura1.Size = new Size(84, 26);
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(220, 6);
+            toolStripSeparator1.Size = new Size(233, 6);
             // 
             // dadosToolStripMenuItem
             // 
@@ -116,6 +124,7 @@
             // 
             // d4
             // 
+            d4.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             d4.Location = new Point(16, 62);
             d4.Margin = new Padding(3, 4, 3, 4);
             d4.Name = "d4";
@@ -127,6 +136,7 @@
             // 
             // d6
             // 
+            d6.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             d6.Location = new Point(128, 62);
             d6.Margin = new Padding(3, 4, 3, 4);
             d6.Name = "d6";
@@ -138,6 +148,7 @@
             // 
             // d10
             // 
+            d10.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             d10.Location = new Point(353, 62);
             d10.Margin = new Padding(3, 4, 3, 4);
             d10.Name = "d10";
@@ -149,6 +160,7 @@
             // 
             // d100
             // 
+            d100.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             d100.Location = new Point(691, 62);
             d100.Margin = new Padding(3, 4, 3, 4);
             d100.Name = "d100";
@@ -160,6 +172,7 @@
             // 
             // d20
             // 
+            d20.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             d20.Location = new Point(578, 62);
             d20.Margin = new Padding(3, 4, 3, 4);
             d20.Name = "d20";
@@ -171,6 +184,7 @@
             // 
             // d12
             // 
+            d12.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             d12.Location = new Point(466, 62);
             d12.Margin = new Padding(3, 4, 3, 4);
             d12.Name = "d12";
@@ -182,6 +196,7 @@
             // 
             // nUDd4
             // 
+            nUDd4.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             nUDd4.Location = new Point(16, 108);
             nUDd4.Margin = new Padding(3, 4, 3, 4);
             nUDd4.Name = "nUDd4";
@@ -191,6 +206,7 @@
             // 
             // nUDd6
             // 
+            nUDd6.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             nUDd6.Location = new Point(128, 108);
             nUDd6.Margin = new Padding(3, 4, 3, 4);
             nUDd6.Name = "nUDd6";
@@ -200,6 +216,7 @@
             // 
             // nUDd8
             // 
+            nUDd8.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             nUDd8.Location = new Point(241, 108);
             nUDd8.Margin = new Padding(3, 4, 3, 4);
             nUDd8.Name = "nUDd8";
@@ -209,6 +226,7 @@
             // 
             // nUDd10
             // 
+            nUDd10.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             nUDd10.Location = new Point(353, 108);
             nUDd10.Margin = new Padding(3, 4, 3, 4);
             nUDd10.Name = "nUDd10";
@@ -218,6 +236,7 @@
             // 
             // nUDd12
             // 
+            nUDd12.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             nUDd12.Location = new Point(466, 108);
             nUDd12.Margin = new Padding(3, 4, 3, 4);
             nUDd12.Name = "nUDd12";
@@ -227,6 +246,7 @@
             // 
             // nUDd20
             // 
+            nUDd20.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             nUDd20.Location = new Point(578, 108);
             nUDd20.Margin = new Padding(3, 4, 3, 4);
             nUDd20.Name = "nUDd20";
@@ -236,6 +256,7 @@
             // 
             // nUDd100
             // 
+            nUDd100.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             nUDd100.Location = new Point(691, 108);
             nUDd100.Margin = new Padding(3, 4, 3, 4);
             nUDd100.Name = "nUDd100";
@@ -245,6 +266,7 @@
             // 
             // lbResultado
             // 
+            lbResultado.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lbResultado.AutoSize = true;
             lbResultado.Location = new Point(917, 68);
             lbResultado.Name = "lbResultado";
@@ -254,6 +276,7 @@
             // 
             // lbValorResultado
             // 
+            lbValorResultado.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lbValorResultado.AutoSize = true;
             lbValorResultado.Location = new Point(1015, 68);
             lbValorResultado.Name = "lbValorResultado";
@@ -262,6 +285,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Pixel UniCode", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(814, 62);
@@ -272,6 +296,7 @@
             // 
             // btnRolar
             // 
+            btnRolar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             btnRolar.Location = new Point(850, 105);
             btnRolar.Name = "btnRolar";
             btnRolar.Size = new Size(159, 36);
@@ -282,6 +307,7 @@
             // 
             // btLimpar
             // 
+            btLimpar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             btLimpar.Location = new Point(402, 188);
             btLimpar.Name = "btLimpar";
             btLimpar.Size = new Size(117, 37);
@@ -292,6 +318,7 @@
             // 
             // d8
             // 
+            d8.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             d8.Location = new Point(241, 62);
             d8.Margin = new Padding(3, 4, 3, 4);
             d8.Name = "d8";
@@ -303,12 +330,19 @@
             // 
             // tbModificador
             // 
+            tbModificador.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             tbModificador.Location = new Point(850, 65);
             tbModificador.Mask = "00000";
             tbModificador.Name = "tbModificador";
             tbModificador.Size = new Size(54, 33);
             tbModificador.TabIndex = 23;
             tbModificador.ValidatingType = typeof(int);
+            // 
+            // carregarJogadoresToolStripMenuItem
+            // 
+            carregarJogadoresToolStripMenuItem.Name = "carregarJogadoresToolStripMenuItem";
+            carregarJogadoresToolStripMenuItem.Size = new Size(236, 26);
+            carregarJogadoresToolStripMenuItem.Text = "Carregar Jogadores";
             // 
             // frmInicial
             // 
@@ -359,10 +393,10 @@
         #endregion
         private MenuStrip menuStrip1;
         private ToolStripMenuItem campanhaToolStripMenuItem;
-        private ToolStripMenuItem adicionarCampanhaToolStripMenuItem;
-        private ToolStripMenuItem camapnhasToolStripMenuItem;
+        private ToolStripMenuItem tsmiAdicionarAventura;
+        private ToolStripMenuItem tsmiRemoverAventura;
         private ToolStripMenuItem dadosToolStripMenuItem;
-        private ToolStripMenuItem aventurasToolStripMenuItem;
+        private ToolStripMenuItem tsmiAventuras;
         private ToolStripSeparator toolStripSeparator1;
         private Button d4;
         private Button d6;
@@ -384,5 +418,7 @@
         private Button btLimpar;
         private Button d8;
         private MaskedTextBox tbModificador;
+        private ToolStripMenuItem tsmiAventura1;
+        private ToolStripMenuItem carregarJogadoresToolStripMenuItem;
     }
 }

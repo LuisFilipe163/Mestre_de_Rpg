@@ -1,14 +1,15 @@
-﻿using System;
+﻿using Mestre_de_Rpg.Entities.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mestre_de_Rpg.Entities.Dices
+namespace Mestre_de_Rpg.Entities
 {
     internal static class Dado
     {
-        public static Random rolagem = new Random();
+        public static Random rolagem = new();
 
         public static int RolarDados(int QtdDados, int QtdLados)
         {

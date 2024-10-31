@@ -1,4 +1,4 @@
-﻿using Mestre_de_Rpg.Entities.Dices;
+﻿using Mestre_de_Rpg.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -82,9 +82,9 @@ namespace Mestre_de_Rpg
                 }
             }
             _ = int.TryParse(tbModificador.Text, out int modificador);
-            
+
             lbValorResultado.Text = (totalResultado.Sum() + modificador).ToString();
-            
+
         }
 
         private void btLimpar_Click(object sender, EventArgs e)
