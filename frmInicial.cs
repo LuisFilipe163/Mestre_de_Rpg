@@ -81,16 +81,15 @@ namespace Mestre_de_Rpg
                     MessageBox.Show($"{qtddados.Value} dados de {qtdlados} lados rolados, resultados: {string.Join(", ", totalResultado)}");
                 }
             }
-            int modificador;
-            if (int.TryParse(tbModificador.Text, out modificador))
-            {
-                lbValorResultado.Text = (totalResultado.Sum() + modificador).ToString();
-            }
+            _ = int.TryParse(tbModificador.Text, out int modificador);
+            
+            lbValorResultado.Text = (totalResultado.Sum() + modificador).ToString();
+            
         }
 
         private void btLimpar_Click(object sender, EventArgs e)
         {
-            foreach (var valor in dados.Keys) 
+            foreach (var valor in dados.Keys)
             {
                 valor.Value = 0;
             }

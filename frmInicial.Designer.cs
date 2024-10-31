@@ -52,10 +52,10 @@
             lbResultado = new Label();
             lbValorResultado = new Label();
             label1 = new Label();
-            tbModificador = new TextBox();
             btnRolar = new Button();
             btLimpar = new Button();
             d8 = new Button();
+            tbModificador = new MaskedTextBox();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nUDd4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nUDd6).BeginInit();
@@ -246,7 +246,7 @@
             // lbResultado
             // 
             lbResultado.AutoSize = true;
-            lbResultado.Location = new Point(1030, 68);
+            lbResultado.Location = new Point(917, 68);
             lbResultado.Name = "lbResultado";
             lbResultado.Size = new Size(92, 26);
             lbResultado.TabIndex = 16;
@@ -255,7 +255,7 @@
             // lbValorResultado
             // 
             lbValorResultado.AutoSize = true;
-            lbValorResultado.Location = new Point(1129, 68);
+            lbValorResultado.Location = new Point(1015, 68);
             lbValorResultado.Name = "lbValorResultado";
             lbValorResultado.Size = new Size(0, 26);
             lbValorResultado.TabIndex = 17;
@@ -269,13 +269,6 @@
             label1.Size = new Size(30, 39);
             label1.TabIndex = 18;
             label1.Text = "+";
-            // 
-            // tbModificador
-            // 
-            tbModificador.Location = new Point(850, 65);
-            tbModificador.Name = "tbModificador";
-            tbModificador.Size = new Size(159, 33);
-            tbModificador.TabIndex = 19;
             // 
             // btnRolar
             // 
@@ -291,7 +284,7 @@
             // 
             btLimpar.Location = new Point(402, 188);
             btLimpar.Name = "btLimpar";
-            btLimpar.Size = new Size(94, 29);
+            btLimpar.Size = new Size(117, 37);
             btLimpar.TabIndex = 21;
             btLimpar.Text = "Limpar";
             btLimpar.UseVisualStyleBackColor = true;
@@ -308,15 +301,24 @@
             d8.UseVisualStyleBackColor = true;
             d8.Click += Dice_Click;
             // 
+            // tbModificador
+            // 
+            tbModificador.Location = new Point(850, 65);
+            tbModificador.Mask = "00000";
+            tbModificador.Name = "tbModificador";
+            tbModificador.Size = new Size(54, 33);
+            tbModificador.TabIndex = 23;
+            tbModificador.ValidatingType = typeof(int);
+            // 
             // frmInicial
             // 
             AutoScaleDimensions = new SizeF(9F, 26F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1262, 673);
+            Controls.Add(tbModificador);
             Controls.Add(d8);
             Controls.Add(btLimpar);
             Controls.Add(btnRolar);
-            Controls.Add(tbModificador);
             Controls.Add(label1);
             Controls.Add(lbValorResultado);
             Controls.Add(lbResultado);
@@ -378,9 +380,9 @@
         private Label lbResultado;
         private Label lbValorResultado;
         private Label label1;
-        private TextBox tbModificador;
         private Button btnRolar;
         private Button btLimpar;
         private Button d8;
+        private MaskedTextBox tbModificador;
     }
 }
