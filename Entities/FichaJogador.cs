@@ -59,6 +59,10 @@ namespace Mestre_de_Rpg.Entities
         #endregion
 
         #region Métodos
+
+        /// <summary>
+        /// Registra um Jogador
+        /// </summary>
         public override void CadastroFicha()
         {
             try

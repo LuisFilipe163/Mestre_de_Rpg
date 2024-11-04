@@ -35,6 +35,10 @@ namespace Mestre_de_Rpg.Entities
         #endregion
 
         #region Métodos
+
+        /// <summary>
+        /// Registra uma Invocação
+        /// </summary>
         public override void CadastroFicha()
         {
             try

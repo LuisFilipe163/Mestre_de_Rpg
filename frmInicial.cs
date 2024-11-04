@@ -31,6 +31,9 @@ namespace Mestre_de_Rpg
             };
         }
 
+        /// <summary>
+        /// Incrementa em 1 a quantidade do dado selecionado
+        /// </summary>
         private void Dice_Click(object sender, EventArgs e)
         {
             if (sender is Button button)
@@ -62,6 +65,9 @@ namespace Mestre_de_Rpg
             }
         }
 
+        /// <summary>
+        /// Rola a quantidade total de dados selecionados no menu
+        /// </summary>
         private void btnRolar_Click(object sender, EventArgs e)
         {
             List<int> totalResultado = [];
@@ -87,11 +93,14 @@ namespace Mestre_de_Rpg
 
         }
 
+        /// <summary>
+        /// Reset o valor dos NumericUpDown para 0
+        /// </summary>
         private void btLimpar_Click(object sender, EventArgs e)
         {
-            foreach (var valor in dados.Keys)
+            foreach (NumericUpDown nUDValor in dados.Keys)
             {
-                valor.Value = 0;
+                nUDValor.Value = 0;
             }
         }
     }

@@ -33,6 +33,9 @@ namespace Mesa_do_Mestre
         }
 
         #region Métodos de Configuração
+        /// <summary>
+        /// Configura os NumericUpDowns do formulario
+        /// </summary>
         private void NumericUpDownsConfig()
         {
             allnumericUpDowns = new NumericUpDown[]
@@ -70,6 +73,9 @@ namespace Mesa_do_Mestre
                 nUD9
             };
         }
+        /// <summary>
+        /// Configura o valor de visibilidade do formulario quando indicado ser um registro de jogador/inimigo
+        /// </summary>
         private void PlayerControlConfig()
         {
             controlePersonagem = new Dictionary<Control, bool>
@@ -100,6 +106,9 @@ namespace Mesa_do_Mestre
                 { nUD9, nUD9.Visible }
             };
         }         
+        /// <summary>
+        /// Define o valor padrão dos campos do formulario
+        /// </summary>
         private void DefaultIndexForm()
         {
             cboTipodeFicha.SelectedIndex = 0;
@@ -116,6 +125,9 @@ namespace Mesa_do_Mestre
             btnLimpar.Location = new Point(223, 487);
             btnSalvar.Location = new Point(323, 487);
         }
+        /// <summary>
+        /// Preenche o ComboBox de classes
+        /// </summary>
         private void FillComboBox()
         {
             cboClasse.DataSource = Enum.GetValues(typeof(FichaJogador.Classe));
@@ -248,7 +260,10 @@ namespace Mesa_do_Mestre
         }
         #endregion
 
-        #region Métodos        
+        #region Métodos
+        /// <summary>
+        /// Cadastra a entidade a partir do tipo selecionado
+        /// </summary>
         private void CadastraPersonagem()
         {            
             if (cboTipodeFicha.SelectedIndex == 0)

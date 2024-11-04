@@ -60,6 +60,9 @@ namespace Mestre_de_Rpg.Entities
 
         #region Métodos
 
+        /// <summary>
+        /// Registra um Inimigo
+        /// </summary>
         public override void CadastroFicha()
         {
             try

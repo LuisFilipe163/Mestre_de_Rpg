@@ -11,6 +11,12 @@ namespace Mestre_de_Rpg.Entities
     {
         public static Random rolagem = new();
 
+        /// <summary>
+        /// Realiza a rolagem de um número específico de dados com um determinado número de lados.
+        /// </summary>
+        /// <param name="QtdDados">Quantidade de um tipo de Dado</param>
+        /// <param name="QtdLados">Qauntidade de lados do Dado</param>
+        /// <returns>Valor total obtido das rolagens de todos os dados.</returns>
         public static int RolarDados(int QtdDados, int QtdLados)
         {
 
