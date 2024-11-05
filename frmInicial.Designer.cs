@@ -36,13 +36,8 @@
             tsmiAventuras = new ToolStripMenuItem();
             tsmiAventura1 = new ToolStripMenuItem();
             toolStripSeparator1 = new ToolStripSeparator();
+            carregarJogadoresToolStripMenuItem = new ToolStripMenuItem();
             dadosToolStripMenuItem = new ToolStripMenuItem();
-            d4 = new Button();
-            d6 = new Button();
-            d10 = new Button();
-            d100 = new Button();
-            d20 = new Button();
-            d12 = new Button();
             nUDd4 = new NumericUpDown();
             nUDd6 = new NumericUpDown();
             nUDd8 = new NumericUpDown();
@@ -55,9 +50,14 @@
             label1 = new Label();
             btnRolar = new Button();
             btLimpar = new Button();
-            d8 = new Button();
             tbModificador = new MaskedTextBox();
-            carregarJogadoresToolStripMenuItem = new ToolStripMenuItem();
+            pBd4 = new PictureBox();
+            pBd6 = new PictureBox();
+            pBd8 = new PictureBox();
+            pBd10 = new PictureBox();
+            pBd12 = new PictureBox();
+            pBd20 = new PictureBox();
+            pBd100 = new PictureBox();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nUDd4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nUDd6).BeginInit();
@@ -66,6 +66,13 @@
             ((System.ComponentModel.ISupportInitialize)nUDd12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nUDd20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nUDd100).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pBd4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pBd6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pBd8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pBd10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pBd12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pBd20).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pBd100).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -116,157 +123,83 @@
             toolStripSeparator1.Name = "toolStripSeparator1";
             toolStripSeparator1.Size = new Size(233, 6);
             // 
+            // carregarJogadoresToolStripMenuItem
+            // 
+            carregarJogadoresToolStripMenuItem.Name = "carregarJogadoresToolStripMenuItem";
+            carregarJogadoresToolStripMenuItem.Size = new Size(236, 26);
+            carregarJogadoresToolStripMenuItem.Text = "Carregar Jogadores";
+            // 
             // dadosToolStripMenuItem
             // 
             dadosToolStripMenuItem.Name = "dadosToolStripMenuItem";
             dadosToolStripMenuItem.Size = new Size(65, 26);
             dadosToolStripMenuItem.Text = "Dados";
             // 
-            // d4
-            // 
-            d4.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            d4.Location = new Point(16, 62);
-            d4.Margin = new Padding(3, 4, 3, 4);
-            d4.Name = "d4";
-            d4.Size = new Size(106, 38);
-            d4.TabIndex = 2;
-            d4.Text = "d4";
-            d4.UseVisualStyleBackColor = true;
-            d4.Click += Dice_Click;
-            // 
-            // d6
-            // 
-            d6.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            d6.Location = new Point(128, 62);
-            d6.Margin = new Padding(3, 4, 3, 4);
-            d6.Name = "d6";
-            d6.Size = new Size(106, 38);
-            d6.TabIndex = 3;
-            d6.Text = "d6";
-            d6.UseVisualStyleBackColor = true;
-            d6.Click += Dice_Click;
-            // 
-            // d10
-            // 
-            d10.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            d10.Location = new Point(353, 62);
-            d10.Margin = new Padding(3, 4, 3, 4);
-            d10.Name = "d10";
-            d10.Size = new Size(106, 38);
-            d10.TabIndex = 5;
-            d10.Text = "d10";
-            d10.UseVisualStyleBackColor = true;
-            d10.Click += Dice_Click;
-            // 
-            // d100
-            // 
-            d100.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            d100.Location = new Point(691, 62);
-            d100.Margin = new Padding(3, 4, 3, 4);
-            d100.Name = "d100";
-            d100.Size = new Size(106, 38);
-            d100.TabIndex = 6;
-            d100.Text = "d100";
-            d100.UseVisualStyleBackColor = true;
-            d100.Click += Dice_Click;
-            // 
-            // d20
-            // 
-            d20.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            d20.Location = new Point(578, 62);
-            d20.Margin = new Padding(3, 4, 3, 4);
-            d20.Name = "d20";
-            d20.Size = new Size(106, 38);
-            d20.TabIndex = 7;
-            d20.Text = "d20";
-            d20.UseVisualStyleBackColor = true;
-            d20.Click += Dice_Click;
-            // 
-            // d12
-            // 
-            d12.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            d12.Location = new Point(466, 62);
-            d12.Margin = new Padding(3, 4, 3, 4);
-            d12.Name = "d12";
-            d12.Size = new Size(106, 38);
-            d12.TabIndex = 8;
-            d12.Text = "d12";
-            d12.UseVisualStyleBackColor = true;
-            d12.Click += Dice_Click;
-            // 
             // nUDd4
             // 
-            nUDd4.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            nUDd4.Location = new Point(16, 108);
+            nUDd4.Location = new Point(29, 138);
             nUDd4.Margin = new Padding(3, 4, 3, 4);
             nUDd4.Name = "nUDd4";
-            nUDd4.Size = new Size(106, 33);
+            nUDd4.Size = new Size(66, 33);
             nUDd4.TabIndex = 9;
             nUDd4.TextAlign = HorizontalAlignment.Center;
             // 
             // nUDd6
             // 
-            nUDd6.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            nUDd6.Location = new Point(128, 108);
+            nUDd6.Location = new Point(135, 138);
             nUDd6.Margin = new Padding(3, 4, 3, 4);
             nUDd6.Name = "nUDd6";
-            nUDd6.Size = new Size(106, 33);
+            nUDd6.Size = new Size(66, 33);
             nUDd6.TabIndex = 10;
             nUDd6.TextAlign = HorizontalAlignment.Center;
             // 
             // nUDd8
             // 
-            nUDd8.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            nUDd8.Location = new Point(241, 108);
+            nUDd8.Location = new Point(241, 138);
             nUDd8.Margin = new Padding(3, 4, 3, 4);
             nUDd8.Name = "nUDd8";
-            nUDd8.Size = new Size(106, 33);
+            nUDd8.Size = new Size(66, 33);
             nUDd8.TabIndex = 11;
             nUDd8.TextAlign = HorizontalAlignment.Center;
             // 
             // nUDd10
             // 
-            nUDd10.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            nUDd10.Location = new Point(353, 108);
+            nUDd10.Location = new Point(347, 138);
             nUDd10.Margin = new Padding(3, 4, 3, 4);
             nUDd10.Name = "nUDd10";
-            nUDd10.Size = new Size(106, 33);
+            nUDd10.Size = new Size(66, 33);
             nUDd10.TabIndex = 12;
             nUDd10.TextAlign = HorizontalAlignment.Center;
             // 
             // nUDd12
             // 
-            nUDd12.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            nUDd12.Location = new Point(466, 108);
+            nUDd12.Location = new Point(453, 138);
             nUDd12.Margin = new Padding(3, 4, 3, 4);
             nUDd12.Name = "nUDd12";
-            nUDd12.Size = new Size(106, 33);
+            nUDd12.Size = new Size(66, 33);
             nUDd12.TabIndex = 13;
             nUDd12.TextAlign = HorizontalAlignment.Center;
             // 
             // nUDd20
             // 
-            nUDd20.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            nUDd20.Location = new Point(578, 108);
+            nUDd20.Location = new Point(559, 138);
             nUDd20.Margin = new Padding(3, 4, 3, 4);
             nUDd20.Name = "nUDd20";
-            nUDd20.Size = new Size(106, 33);
+            nUDd20.Size = new Size(66, 33);
             nUDd20.TabIndex = 14;
             nUDd20.TextAlign = HorizontalAlignment.Center;
             // 
             // nUDd100
             // 
-            nUDd100.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            nUDd100.Location = new Point(691, 108);
+            nUDd100.Location = new Point(665, 138);
             nUDd100.Margin = new Padding(3, 4, 3, 4);
             nUDd100.Name = "nUDd100";
-            nUDd100.Size = new Size(106, 33);
+            nUDd100.Size = new Size(66, 33);
             nUDd100.TabIndex = 15;
             nUDd100.TextAlign = HorizontalAlignment.Center;
             // 
             // lbResultado
             // 
-            lbResultado.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lbResultado.AutoSize = true;
             lbResultado.Location = new Point(917, 68);
             lbResultado.Name = "lbResultado";
@@ -276,7 +209,6 @@
             // 
             // lbValorResultado
             // 
-            lbValorResultado.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lbValorResultado.AutoSize = true;
             lbValorResultado.Location = new Point(1015, 68);
             lbValorResultado.Name = "lbValorResultado";
@@ -285,7 +217,6 @@
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Pixel UniCode", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(814, 62);
@@ -296,8 +227,7 @@
             // 
             // btnRolar
             // 
-            btnRolar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btnRolar.Location = new Point(850, 105);
+            btnRolar.Location = new Point(976, 129);
             btnRolar.Name = "btnRolar";
             btnRolar.Size = new Size(159, 36);
             btnRolar.TabIndex = 20;
@@ -307,30 +237,16 @@
             // 
             // btLimpar
             // 
-            btLimpar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btLimpar.Location = new Point(402, 188);
+            btLimpar.Location = new Point(850, 129);
             btLimpar.Name = "btLimpar";
-            btLimpar.Size = new Size(117, 37);
+            btLimpar.Size = new Size(120, 36);
             btLimpar.TabIndex = 21;
             btLimpar.Text = "Limpar";
             btLimpar.UseVisualStyleBackColor = true;
             btLimpar.Click += btLimpar_Click;
             // 
-            // d8
-            // 
-            d8.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            d8.Location = new Point(241, 62);
-            d8.Margin = new Padding(3, 4, 3, 4);
-            d8.Name = "d8";
-            d8.Size = new Size(106, 38);
-            d8.TabIndex = 22;
-            d8.Text = "d8";
-            d8.UseVisualStyleBackColor = true;
-            d8.Click += Dice_Click;
-            // 
             // tbModificador
             // 
-            tbModificador.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             tbModificador.Location = new Point(850, 65);
             tbModificador.Mask = "00000";
             tbModificador.Name = "tbModificador";
@@ -338,19 +254,94 @@
             tbModificador.TabIndex = 23;
             tbModificador.ValidatingType = typeof(int);
             // 
-            // carregarJogadoresToolStripMenuItem
+            // pBd4
             // 
-            carregarJogadoresToolStripMenuItem.Name = "carregarJogadoresToolStripMenuItem";
-            carregarJogadoresToolStripMenuItem.Size = new Size(236, 26);
-            carregarJogadoresToolStripMenuItem.Text = "Carregar Jogadores";
+            pBd4.Location = new Point(29, 56);
+            pBd4.Margin = new Padding(20);
+            pBd4.Name = "pBd4";
+            pBd4.Size = new Size(66, 55);
+            pBd4.TabIndex = 24;
+            pBd4.TabStop = false;
+            pBd4.MouseDown += Dice_MouseDown;
+            pBd4.MouseUp += Dice_MouseUp;
+            // 
+            // pBd6
+            // 
+            pBd6.Location = new Point(135, 49);
+            pBd6.Margin = new Padding(20);
+            pBd6.Name = "pBd6";
+            pBd6.Size = new Size(66, 68);
+            pBd6.TabIndex = 25;
+            pBd6.TabStop = false;
+            pBd6.MouseDown += Dice_MouseDown;
+            pBd6.MouseUp += Dice_MouseUp;
+            // 
+            // pBd8
+            // 
+            pBd8.Location = new Point(241, 49);
+            pBd8.Margin = new Padding(20);
+            pBd8.Name = "pBd8";
+            pBd8.Size = new Size(66, 69);
+            pBd8.TabIndex = 26;
+            pBd8.TabStop = false;
+            pBd8.MouseDown += Dice_MouseDown;
+            pBd8.MouseUp += Dice_MouseUp;
+            // 
+            // pBd10
+            // 
+            pBd10.Location = new Point(347, 49);
+            pBd10.Margin = new Padding(20);
+            pBd10.Name = "pBd10";
+            pBd10.Size = new Size(66, 69);
+            pBd10.TabIndex = 27;
+            pBd10.TabStop = false;
+            pBd10.MouseDown += Dice_MouseDown;
+            pBd10.MouseUp += Dice_MouseUp;
+            // 
+            // pBd12
+            // 
+            pBd12.Location = new Point(453, 52);
+            pBd12.Margin = new Padding(20);
+            pBd12.Name = "pBd12";
+            pBd12.Size = new Size(66, 62);
+            pBd12.TabIndex = 28;
+            pBd12.TabStop = false;
+            pBd12.MouseDown += Dice_MouseDown;
+            // 
+            // pBd20
+            // 
+            pBd20.Location = new Point(559, 52);
+            pBd20.Margin = new Padding(20);
+            pBd20.Name = "pBd20";
+            pBd20.Size = new Size(66, 62);
+            pBd20.TabIndex = 29;
+            pBd20.TabStop = false;
+            pBd20.MouseDown += Dice_MouseDown;
+            // 
+            // pBd100
+            // 
+            pBd100.Location = new Point(665, 52);
+            pBd100.Margin = new Padding(20);
+            pBd100.Name = "pBd100";
+            pBd100.Size = new Size(66, 62);
+            pBd100.TabIndex = 30;
+            pBd100.TabStop = false;
+            pBd100.MouseDown += Dice_MouseDown;
             // 
             // frmInicial
             // 
             AutoScaleDimensions = new SizeF(9F, 26F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Bisque;
             ClientSize = new Size(1262, 673);
+            Controls.Add(pBd100);
+            Controls.Add(pBd20);
+            Controls.Add(pBd12);
+            Controls.Add(pBd10);
+            Controls.Add(pBd8);
+            Controls.Add(pBd6);
+            Controls.Add(pBd4);
             Controls.Add(tbModificador);
-            Controls.Add(d8);
             Controls.Add(btLimpar);
             Controls.Add(btnRolar);
             Controls.Add(label1);
@@ -363,12 +354,6 @@
             Controls.Add(nUDd8);
             Controls.Add(nUDd6);
             Controls.Add(nUDd4);
-            Controls.Add(d12);
-            Controls.Add(d20);
-            Controls.Add(d100);
-            Controls.Add(d10);
-            Controls.Add(d6);
-            Controls.Add(d4);
             Controls.Add(menuStrip1);
             Font = new Font("Pixel UniCode", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -386,6 +371,13 @@
             ((System.ComponentModel.ISupportInitialize)nUDd12).EndInit();
             ((System.ComponentModel.ISupportInitialize)nUDd20).EndInit();
             ((System.ComponentModel.ISupportInitialize)nUDd100).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pBd4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pBd6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pBd8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pBd10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pBd12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pBd20).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pBd100).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -398,12 +390,6 @@
         private ToolStripMenuItem dadosToolStripMenuItem;
         private ToolStripMenuItem tsmiAventuras;
         private ToolStripSeparator toolStripSeparator1;
-        private Button d4;
-        private Button d6;
-        private Button d10;
-        private Button d100;
-        private Button d20;
-        private Button d12;
         private NumericUpDown nUDd4;
         private NumericUpDown nUDd6;
         private NumericUpDown nUDd8;
@@ -416,9 +402,15 @@
         private Label label1;
         private Button btnRolar;
         private Button btLimpar;
-        private Button d8;
         private MaskedTextBox tbModificador;
         private ToolStripMenuItem tsmiAventura1;
         private ToolStripMenuItem carregarJogadoresToolStripMenuItem;
+        private PictureBox pBd4;
+        private PictureBox pBd6;
+        private PictureBox pBd8;
+        private PictureBox pBd10;
+        private PictureBox pBd12;
+        private PictureBox pBd20;
+        private PictureBox pBd100;
     }
 }

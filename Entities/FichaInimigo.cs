@@ -86,7 +86,6 @@ namespace Mestre_de_Rpg.Entities
                 string message = ex.ToString();
             }
         }
-
         #endregion
     }
 }
