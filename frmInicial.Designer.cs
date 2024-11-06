@@ -58,6 +58,7 @@
             pBd12 = new PictureBox();
             pBd20 = new PictureBox();
             pBd100 = new PictureBox();
+            label2 = new Label();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nUDd4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nUDd6).BeginInit();
@@ -300,13 +301,14 @@
             // 
             // pBd12
             // 
-            pBd12.Location = new Point(453, 52);
+            pBd12.Location = new Point(453, 49);
             pBd12.Margin = new Padding(20);
             pBd12.Name = "pBd12";
-            pBd12.Size = new Size(66, 62);
+            pBd12.Size = new Size(66, 69);
             pBd12.TabIndex = 28;
             pBd12.TabStop = false;
             pBd12.MouseDown += Dice_MouseDown;
+            pBd12.MouseUp += Dice_MouseUp;
             // 
             // pBd20
             // 
@@ -328,12 +330,23 @@
             pBd100.TabStop = false;
             pBd100.MouseDown += Dice_MouseDown;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Pixel UniCode", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(669, 310);
+            label2.Name = "label2";
+            label2.Size = new Size(30, 50);
+            label2.TabIndex = 31;
+            label2.Text = "1";
+            // 
             // frmInicial
             // 
             AutoScaleDimensions = new SizeF(9F, 26F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Bisque;
             ClientSize = new Size(1262, 673);
+            Controls.Add(label2);
             Controls.Add(pBd100);
             Controls.Add(pBd20);
             Controls.Add(pBd12);
@@ -412,5 +425,6 @@
         private PictureBox pBd12;
         private PictureBox pBd20;
         private PictureBox pBd100;
+        private Label label2;
     }
 }

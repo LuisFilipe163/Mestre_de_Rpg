@@ -23,6 +23,8 @@ namespace Mestre_de_Rpg
         private readonly string botaoClicadod8 = @"..\..\..\Icons\D8_selected.png";
         private readonly string botaoNormald10 = @"..\..\..\Icons\D10_default.png";
         private readonly string botaoClicadod10 = @"..\..\..\Icons\D10_selected.png";
+        private readonly string botaoNormald12 = @"..\..\..\Icons\D12_default.png";
+        private readonly string botaoClicadod12 = @"..\..\..\Icons\D12_selected.png";
 
         public frmInicial()
         {
@@ -41,6 +43,7 @@ namespace Mestre_de_Rpg
             pBd6.Image = Image.FromFile(botaoNormald6);
             pBd8.Image = Image.FromFile(botaoNormald8);
             pBd10.Image = Image.FromFile(botaoNormald10);
+            pBd12.Image = Image.FromFile(botaoNormald12);
         }
 
         /// <summary>
@@ -61,10 +64,10 @@ namespace Mestre_de_Rpg
                     {
                         int resultado = Dado.RolarDados(1, qtdlados);
                         totalResultado.Add(resultado);
-                    }
-                    //MessageBox.Show($"{qtddados.Value} dados de {qtdlados} lados rolados, resultados: {string.Join(", ", totalResultado)}");
-                }
+                    }                    
+                }                
             }
+
             _ = int.TryParse(tbModificador.Text, out int modificador);
 
             string resultadoroll = $"Soma da Rolagens ({totalResultado.Sum()}) + Modificador ({modificador}) = {(totalResultado.Sum() + modificador)}";
@@ -109,6 +112,7 @@ namespace Mestre_de_Rpg
                         nUDd10.Value += 1;
                         break;
                     case "pBd12":
+                        pBd12.Image = Image.FromFile(botaoClicadod12);
                         nUDd12.Value += 1;
                         break;
                     case "pBd20":
@@ -140,6 +144,7 @@ namespace Mestre_de_Rpg
                         pBd10.Image = Image.FromFile(botaoNormald10);
                         break;
                     case "pBd12":
+                        pBd12.Image = Image.FromFile(botaoNormald12);
                         break;
                     case "pBd20":
                         break;
