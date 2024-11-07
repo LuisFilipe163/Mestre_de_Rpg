@@ -1,4 +1,4 @@
-﻿using Mestre_de_Rpg.Entities.Contracts;
+﻿using Mestre_de_Rpg.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -4,10 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SQLite;
+using System.Data;
+using Mestre_de_Rpg.DB;
 
 namespace Mestre_de_Rpg.Entities
 {
-    internal class FichaJogador : Ficha
+    public class FichaJogador : Ficha
     {
         public enum Classe
         {
@@ -23,12 +26,13 @@ namespace Mestre_de_Rpg.Entities
             Monge,
             Paladino,
             Patrulheiro
-        }
+        }        
 
         #region Variáveis        
         private uint[] espacoMagias = [0, 0, 0, 0, 0, 0, 0, 0, 0];
         public Classe classePersonagem;
         public uint nivel;
+        private uint idaventura;
         #endregion
 
         #region Propriedades        
@@ -37,16 +41,10 @@ namespace Mestre_de_Rpg.Entities
             get { return espacoMagias; }
             set { espacoMagias = value; }
         }
-        public Classe ClassePersonagem
-        {
-            get { return classePersonagem; }
-            set { classePersonagem = value; }
-        }
-        public uint Nivel
-        {
-            get { return nivel; }
-            set { nivel = value; }
-        }
+        public Classe ClassePersonagem { get; set; }
+        public uint Nivel { get; set; }
+
+        public uint IDAventura { get; set; }
         #endregion
 
         #region Construtor
@@ -56,31 +54,41 @@ namespace Mestre_de_Rpg.Entities
             this.classePersonagem = classePersonagem;
             this.nivel = nivel;
         }
+        public FichaJogador(string nomePersonagem, uint vidaMaximaPersonagem, uint classeArmadura, uint[] espacoMagias, Classe classePersonagem, uint nivel, uint idAventura) : base(nomePersonagem, vidaMaximaPersonagem, classeArmadura)
+        {
+            this.espacoMagias = espacoMagias;
+            this.classePersonagem = classePersonagem;
+            this.nivel = nivel;
+            this.idaventura = idAventura;
+        }
         #endregion
 
         #region Métodos
 
+        
         /// <summary>
         /// Registra um Jogador
         /// </summary>
-        public override void CadastroFicha()
+        public override void CadastraFicha()
         {
             try
             {
-                FichaJogador Jogador = new FichaJogador(this.NomePersonagem, this.VidaMaximaPersonagem, this.ClasseArmadura, this.EspacoMagias, this.ClassePersonagem, this.Nivel);
-
-                string caminhoArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Personagem.json");
-
-                string json = JsonConvert.SerializeObject(Jogador, Formatting.Indented);
-
-                File.WriteAllText(caminhoArquivo, json);
-
-                cadastroConcluido = true;
+                DALFichaJogador.RegistraJogador(this);
             }
             catch (Exception ex)
             {
                 string message = ex.ToString();
             }
+        }
+
+        public override void EditaFicha()
+        {
+
+        }
+
+        public override void ExcluiFicha()
+        {
+
         }
         #endregion
     }

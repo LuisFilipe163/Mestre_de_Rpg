@@ -1,4 +1,7 @@
-﻿using Mestre_de_Rpg.Entities;
+﻿using Mesa_do_Mestre;
+using Mestre_de_Rpg.DB;
+using Mestre_de_Rpg.Entities;
+using Mestre_de_Rpg.Formularios_adicionais;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -29,6 +32,9 @@ namespace Mestre_de_Rpg
         public frmInicial()
         {
             InitializeComponent();
+            CarregarAventurasNoMenu();
+            ExibirAventura();
+            ExibirJogadores();
             dados = new Dictionary<NumericUpDown, int>()
             {
                 {nUDd4, 4 },
@@ -46,9 +52,6 @@ namespace Mestre_de_Rpg
             pBd12.Image = Image.FromFile(botaoNormald12);
         }
 
-        /// <summary>
-        /// Rola a quantidade total de dados selecionados no menu
-        /// </summary>
         private void btnRolar_Click(object sender, EventArgs e)
         {
             List<int> totalResultado = [];
@@ -64,8 +67,8 @@ namespace Mestre_de_Rpg
                     {
                         int resultado = Dado.RolarDados(1, qtdlados);
                         totalResultado.Add(resultado);
-                    }                    
-                }                
+                    }
+                }
             }
 
             _ = int.TryParse(tbModificador.Text, out int modificador);
@@ -75,9 +78,6 @@ namespace Mestre_de_Rpg
             lbValorResultado.Text = resultadoroll;
         }
 
-        /// <summary>
-        /// Reseta o valor dos NumericUpDown para 0
-        /// </summary>
         private void btLimpar_Click(object sender, EventArgs e)
         {
             foreach (NumericUpDown nUDValor in dados.Keys)
@@ -86,9 +86,6 @@ namespace Mestre_de_Rpg
             }
         }
 
-        /// <summary>
-        /// Incrementa em 1 a quantidade do dado selecionado
-        /// </summary>
         private void Dice_MouseDown(object sender, MouseEventArgs e)
         {
             if (sender is PictureBox button)
@@ -152,6 +149,113 @@ namespace Mestre_de_Rpg
                         break;
                 }
             }
+        }
+
+        private void tsmiAdicionarAventura_Click(object sender, EventArgs e)
+        {
+            frmRegistroAventura registroAventuraForm = new frmRegistroAventura();
+            registroAventuraForm.ShowDialog();
+            CarregarAventurasNoMenu();
+            ExibirAventura();
+        }
+
+        private void frmInicial_Load(object sender, EventArgs e)
+        {
+            BancoDados.InicializarBanco();
+        }
+
+        private void carregarJogadoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ExibirJogadores();
+        }
+
+        private void adicionarJogadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRegistrodePersonagem registroPersonagemForm = new frmRegistrodePersonagem();
+            registroPersonagemForm.ShowDialog();
+            ExibirJogadores();
+        }
+
+        private void tsmiAventuras_Click(object sender, EventArgs e)
+        {
+            ExibirAventura();
+        }
+
+        private void ExibirJogadores()
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                dt = DALFichaJogador.CarregaJogadores();
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR: " + ex.Message);
+            }
+        }
+
+        private void ExibirAventura()
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                dt = DALAventura.CarregaAventuras();
+                dataGridView2.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR: " + ex.Message);
+            }
+        }
+
+        private void EcluirAventura()
+        {
+            try
+            {
+                DataTable aventuras = DALAventura.CarregaAventuras();
+                foreach (DataRow row in aventuras.Rows)
+                {
+                    string nomeAventura = row["nome"].ToString();
+                    ToolStripMenuItem aventuraItem = new ToolStripMenuItem(nomeAventura);
+                }
+                ExibirAventura();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR: " + ex.Message);
+            }
+        }
+
+        private void CarregarAventurasNoMenu()
+        {
+            tsmiAventuras.DropDownItems.Clear();
+            DataTable aventuras = DALAventura.CarregaAventuras();
+            foreach (DataRow row in aventuras.Rows)
+            {
+                string nomeAventura = row["nome"].ToString();
+                int idAventura = Convert.ToInt32(row["id_aventura"]);
+                ToolStripMenuItem aventuraItem = new(nomeAventura)
+                {
+                    Tag = idAventura
+                };
+                tsmiAventuras.DropDownItems.Add(aventuraItem);
+            }
+        }
+
+        private void tsmiRemoverAventura_Click(object sender, EventArgs e)
+        {
+            frmExcluirAventuras registroExcluirAForm = new frmExcluirAventuras();
+            registroExcluirAForm.ShowDialog();
+            CarregarAventurasNoMenu();
+            ExibirAventura();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BancoDados.ExcluirTabelas();
+            ExibirAventura();
+            ExibirJogadores();
         }
     }
 }

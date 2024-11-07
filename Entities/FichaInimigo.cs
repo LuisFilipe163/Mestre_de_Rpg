@@ -31,22 +31,10 @@ namespace Mestre_de_Rpg.Entities
         public uint cr;
         #endregion
 
-        #region Propriedades        
-        public uint[] EspacoMagias
-        {
-            get { return espacoMagias; }
-            set { espacoMagias = value; }
-        }
-        public Classe ClassePersonagem
-        {
-            get { return classePersonagem; }
-            set { classePersonagem = value; }
-        }
-        public uint CR
-        {
-            get { return cr; }
-            set { cr = value; }
-        }
+        #region Propriedades
+        public uint[] EspacoMagias { get; set; }
+        public Classe ClassePersonagem { get; set; }
+        public uint CR { get; set; }
         #endregion
 
         #region Construtor
@@ -63,7 +51,7 @@ namespace Mestre_de_Rpg.Entities
         /// <summary>
         /// Registra um Inimigo
         /// </summary>
-        public override void CadastroFicha()
+        public override void CadastraFicha()
         {
             try
             {
@@ -85,6 +73,16 @@ namespace Mestre_de_Rpg.Entities
             {
                 string message = ex.ToString();
             }
+        }
+
+        public override void EditaFicha()
+        {
+
+        }
+
+        public override void ExcluiFicha()
+        {
+
         }
         #endregion
     }

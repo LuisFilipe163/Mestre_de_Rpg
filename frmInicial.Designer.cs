@@ -34,9 +34,9 @@
             tsmiAdicionarAventura = new ToolStripMenuItem();
             tsmiRemoverAventura = new ToolStripMenuItem();
             tsmiAventuras = new ToolStripMenuItem();
-            tsmiAventura1 = new ToolStripMenuItem();
             toolStripSeparator1 = new ToolStripSeparator();
             carregarJogadoresToolStripMenuItem = new ToolStripMenuItem();
+            adicionarJogadorToolStripMenuItem = new ToolStripMenuItem();
             dadosToolStripMenuItem = new ToolStripMenuItem();
             nUDd4 = new NumericUpDown();
             nUDd6 = new NumericUpDown();
@@ -58,7 +58,10 @@
             pBd12 = new PictureBox();
             pBd20 = new PictureBox();
             pBd100 = new PictureBox();
-            label2 = new Label();
+            dataGridView1 = new DataGridView();
+            dataGridView2 = new DataGridView();
+            button1 = new Button();
+            checkBox1 = new CheckBox();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nUDd4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nUDd6).BeginInit();
@@ -74,6 +77,8 @@
             ((System.ComponentModel.ISupportInitialize)pBd12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pBd20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pBd100).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -84,40 +89,37 @@
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(7, 3, 0, 3);
-            menuStrip1.Size = new Size(1262, 32);
+            menuStrip1.Size = new Size(1902, 32);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
             // campanhaToolStripMenuItem
             // 
-            campanhaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmiAdicionarAventura, tsmiRemoverAventura, tsmiAventuras, toolStripSeparator1, carregarJogadoresToolStripMenuItem });
+            campanhaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmiAdicionarAventura, tsmiRemoverAventura, tsmiAventuras, toolStripSeparator1, carregarJogadoresToolStripMenuItem, adicionarJogadorToolStripMenuItem });
             campanhaToolStripMenuItem.Name = "campanhaToolStripMenuItem";
             campanhaToolStripMenuItem.Size = new Size(87, 26);
-            campanhaToolStripMenuItem.Text = "Aventura";
+            campanhaToolStripMenuItem.Text = "&Aventura";
             // 
             // tsmiAdicionarAventura
             // 
             tsmiAdicionarAventura.Name = "tsmiAdicionarAventura";
             tsmiAdicionarAventura.Size = new Size(236, 26);
             tsmiAdicionarAventura.Text = "Adicionar Aventura";
+            tsmiAdicionarAventura.Click += tsmiAdicionarAventura_Click;
             // 
             // tsmiRemoverAventura
             // 
             tsmiRemoverAventura.Name = "tsmiRemoverAventura";
             tsmiRemoverAventura.Size = new Size(236, 26);
             tsmiRemoverAventura.Text = "Excluir Aventura";
+            tsmiRemoverAventura.Click += tsmiRemoverAventura_Click;
             // 
             // tsmiAventuras
             // 
-            tsmiAventuras.DropDownItems.AddRange(new ToolStripItem[] { tsmiAventura1 });
             tsmiAventuras.Name = "tsmiAventuras";
             tsmiAventuras.Size = new Size(236, 26);
             tsmiAventuras.Text = "Aventuras";
-            // 
-            // tsmiAventura1
-            // 
-            tsmiAventura1.Name = "tsmiAventura1";
-            tsmiAventura1.Size = new Size(84, 26);
+            tsmiAventuras.Click += tsmiAventuras_Click;
             // 
             // toolStripSeparator1
             // 
@@ -129,6 +131,14 @@
             carregarJogadoresToolStripMenuItem.Name = "carregarJogadoresToolStripMenuItem";
             carregarJogadoresToolStripMenuItem.Size = new Size(236, 26);
             carregarJogadoresToolStripMenuItem.Text = "Carregar Jogadores";
+            carregarJogadoresToolStripMenuItem.Click += carregarJogadoresToolStripMenuItem_Click;
+            // 
+            // adicionarJogadorToolStripMenuItem
+            // 
+            adicionarJogadorToolStripMenuItem.Name = "adicionarJogadorToolStripMenuItem";
+            adicionarJogadorToolStripMenuItem.Size = new Size(236, 26);
+            adicionarJogadorToolStripMenuItem.Text = "Adicionar Jogador";
+            adicionarJogadorToolStripMenuItem.Click += adicionarJogadorToolStripMenuItem_Click;
             // 
             // dadosToolStripMenuItem
             // 
@@ -251,12 +261,14 @@
             tbModificador.Location = new Point(850, 65);
             tbModificador.Mask = "00000";
             tbModificador.Name = "tbModificador";
+            tbModificador.RightToLeft = RightToLeft.No;
             tbModificador.Size = new Size(54, 33);
             tbModificador.TabIndex = 23;
             tbModificador.ValidatingType = typeof(int);
             // 
             // pBd4
             // 
+            pBd4.Image = (Image)resources.GetObject("pBd4.Image");
             pBd4.Location = new Point(29, 56);
             pBd4.Margin = new Padding(20);
             pBd4.Name = "pBd4";
@@ -268,6 +280,7 @@
             // 
             // pBd6
             // 
+            pBd6.Image = (Image)resources.GetObject("pBd6.Image");
             pBd6.Location = new Point(135, 49);
             pBd6.Margin = new Padding(20);
             pBd6.Name = "pBd6";
@@ -279,6 +292,7 @@
             // 
             // pBd8
             // 
+            pBd8.Image = (Image)resources.GetObject("pBd8.Image");
             pBd8.Location = new Point(241, 49);
             pBd8.Margin = new Padding(20);
             pBd8.Name = "pBd8";
@@ -290,6 +304,7 @@
             // 
             // pBd10
             // 
+            pBd10.Image = (Image)resources.GetObject("pBd10.Image");
             pBd10.Location = new Point(347, 49);
             pBd10.Margin = new Padding(20);
             pBd10.Name = "pBd10";
@@ -301,6 +316,7 @@
             // 
             // pBd12
             // 
+            pBd12.Image = (Image)resources.GetObject("pBd12.Image");
             pBd12.Location = new Point(453, 49);
             pBd12.Margin = new Padding(20);
             pBd12.Name = "pBd12";
@@ -330,23 +346,54 @@
             pBd100.TabStop = false;
             pBd100.MouseDown += Dice_MouseDown;
             // 
-            // label2
+            // dataGridView1
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Pixel UniCode", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(669, 310);
-            label2.Name = "label2";
-            label2.Size = new Size(30, 50);
-            label2.TabIndex = 31;
-            label2.Text = "1";
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(29, 200);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(1106, 188);
+            dataGridView1.TabIndex = 31;
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(29, 394);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 51;
+            dataGridView2.Size = new Size(1106, 188);
+            dataGridView2.TabIndex = 32;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(1168, 200);
+            button1.Name = "button1";
+            button1.Size = new Size(120, 92);
+            button1.TabIndex = 33;
+            button1.Text = "Excluir tudo da Tabelas";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(623, 951);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(108, 30);
+            checkBox1.TabIndex = 34;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
             // 
             // frmInicial
             // 
             AutoScaleDimensions = new SizeF(9F, 26F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Bisque;
-            ClientSize = new Size(1262, 673);
-            Controls.Add(label2);
+            ClientSize = new Size(1902, 993);
+            Controls.Add(checkBox1);
+            Controls.Add(button1);
+            Controls.Add(dataGridView2);
+            Controls.Add(dataGridView1);
             Controls.Add(pBd100);
             Controls.Add(pBd20);
             Controls.Add(pBd12);
@@ -375,6 +422,7 @@
             Name = "frmInicial";
             Text = "Mesa do Mestre";
             WindowState = FormWindowState.Maximized;
+            Load += frmInicial_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nUDd4).EndInit();
@@ -391,6 +439,8 @@
             ((System.ComponentModel.ISupportInitialize)pBd12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pBd20).EndInit();
             ((System.ComponentModel.ISupportInitialize)pBd100).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -416,7 +466,6 @@
         private Button btnRolar;
         private Button btLimpar;
         private MaskedTextBox tbModificador;
-        private ToolStripMenuItem tsmiAventura1;
         private ToolStripMenuItem carregarJogadoresToolStripMenuItem;
         private PictureBox pBd4;
         private PictureBox pBd6;
@@ -425,6 +474,11 @@
         private PictureBox pBd12;
         private PictureBox pBd20;
         private PictureBox pBd100;
-        private Label label2;
+        private DataGridView dataGridView1;
+        private ToolStripMenuItem adicionarJogadorToolStripMenuItem;
+        private DataGridView dataGridView2;
+        private Button button1;
+        private Panel panel1;
+        private CheckBox checkBox1;
     }
 }

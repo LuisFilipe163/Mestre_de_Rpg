@@ -39,7 +39,7 @@ namespace Mestre_de_Rpg.Entities
         /// <summary>
         /// Registra uma Invocação
         /// </summary>
-        public override void CadastroFicha()
+        public override void CadastraFicha()
         {
             try
             {
@@ -57,6 +57,16 @@ namespace Mestre_de_Rpg.Entities
             {
                 string message = ex.ToString();
             }
+        }
+
+        public override void EditaFicha()
+        {
+
+        }
+
+        public override void ExcluiFicha()
+        {
+
         }
         #endregion
     }

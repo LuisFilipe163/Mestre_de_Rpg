@@ -287,7 +287,7 @@ namespace Mesa_do_Mestre
                 uint Nivel = Convert.ToUInt32(cboNivel.SelectedItem);
 
                 FichaJogador personagem = new FichaJogador(NomePersonagem, VidaMaximaPersonagem, ClasseArmaduraPersonagem, EspacoMagias, ClassePersonagem, Nivel);
-                personagem.CadastroFicha();
+                personagem.CadastraFicha();
             }
             if (cboTipodeFicha.SelectedIndex == 1)
             {
@@ -310,7 +310,7 @@ namespace Mesa_do_Mestre
                 uint CR = Convert.ToUInt32(cboNivel.SelectedItem);
 
                 FichaInimigo inimigo = new FichaInimigo(NomeInimigo, VidaMaximaInimigo, ClasseArmaduraInimigo, EspacoMagias, ClasseInimigo, CR);
-                inimigo.CadastroFicha();
+                inimigo.CadastraFicha();
             }
             if (cboTipodeFicha.SelectedIndex == 2)
             {
@@ -320,7 +320,7 @@ namespace Mesa_do_Mestre
                 uint QuantidadeInvocacoes = (uint)nUDQuantidadeInvocacoes.Value;
 
                 FichaInvocacao inivocaco = new FichaInvocacao(NomeInvocacao, VidaMaximaInvocacao, ClasseArmaduraInvicacao, QuantidadeInvocacoes);
-                inivocaco.CadastroFicha();
+                inivocaco.CadastraFicha();
             }
         }        
         private void LimpaForm()

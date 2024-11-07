@@ -1,8 +1,8 @@
-﻿using Mestre_de_Rpg.Entities.Contracts;
+﻿using Mestre_de_Rpg.Contracts;
 
 namespace Mestre_de_Rpg.Entities
 {
-    internal abstract class Ficha : IFicha
+    public abstract class Ficha 
     {
         #region Variaveis
         private string nomePersonagem;
@@ -56,6 +56,10 @@ namespace Mestre_de_Rpg.Entities
         }
         #endregion
 
-        public abstract void CadastroFicha();
+        public abstract void CadastraFicha();
+
+        public abstract void EditaFicha();
+
+        public abstract void ExcluiFicha();
     }
 }
