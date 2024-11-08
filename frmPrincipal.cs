@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mestre_de_Rpg.DB;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,6 +25,10 @@ namespace Mestre_de_Rpg
         private readonly string botaoClicadod10 = @"..\..\..\Icons\D10_selected.png";
         private readonly string botaoNormald12 = @"..\..\..\Icons\D12_default.png";
         private readonly string botaoClicadod12 = @"..\..\..\Icons\D12_selected.png";
+        private readonly string botaoNormald20 = @"..\..\..\Icons\D20_default.png";
+        private readonly string botaoClicadod20 = @"..\..\..\Icons\D20_selected.png";
+        private readonly string botaoNormald100 = @"..\..\..\Icons\D100_default.png";
+        private readonly string botaoClicadod100 = @"..\..\..\Icons\D100_selected.png";
 
         public frmPrincipal()
         {
@@ -43,7 +48,28 @@ namespace Mestre_de_Rpg
             pbD8.Image = Image.FromFile(botaoNormald8);
             pbD10.Image = Image.FromFile(botaoNormald10);
             pbD12.Image = Image.FromFile(botaoNormald12);
+            pbD20.Image = Image.FromFile(botaoNormald20);
+            pbD100.Image = Image.FromFile(botaoNormald100);
         }
+
+        #region Métodos
+        private void CarregarAventurasNoMenu()
+        {
+            tmsiAventurasReg.DropDownItems.Clear();
+            DataTable aventuras = DALAventura.CarregaAventuras();
+            foreach (DataRow row in aventuras.Rows)
+            {
+                string nomeAventura = row["nome"].ToString();
+                int idAventura = Convert.ToInt32(row["id_aventura"]);
+                ToolStripMenuItem aventuraItem = new(nomeAventura)
+                {
+                    Tag = idAventura
+                };
+                tmsiAventurasReg.DropDownItems.Add(aventuraItem);
+            }
+        }
+        #endregion
+
 
         private void Dice_MouseDown(object sender, MouseEventArgs e)
         {
@@ -72,9 +98,11 @@ namespace Mestre_de_Rpg
                         nUDd12.Value += 1;
                         break;
                     case "pbD20":
+                        pbD20.Image = Image.FromFile(botaoClicadod20);
                         nUDd20.Value += 1;
                         break;
                     case "pbD100":
+                        pbD100.Image = Image.FromFile(botaoClicadod100);
                         nUDd100.Value += 1;
                         break;
                 }
@@ -102,12 +130,34 @@ namespace Mestre_de_Rpg
                     case "pbD12":
                         pbD12.Image = Image.FromFile(botaoNormald12);
                         break;
-                    case "pBd20":
+                    case "pbD20":
+                        pbD20.Image = Image.FromFile(botaoNormald20);
                         break;
-                    case "pBd100":
+                    case "pbD100":
+                        pbD100.Image = Image.FromFile(botaoNormald100);
                         break;
                 }
             }
+        }
+
+        private void tsmiAdicionarAventura_Click(object sender, EventArgs e)
+        {
+            frmRegistroAventura registroAventuraForm = new frmRegistroAventura();
+            registroAventuraForm.ShowDialog();
+            CarregarAventurasNoMenu();
+        }
+
+        private void btLimpar_Click(object sender, EventArgs e)
+        {
+            foreach (NumericUpDown nUDValor in dados.Keys)
+            {
+                nUDValor.Value = 0;
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -117,15 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="adicionarAventuraToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ad&amp;icionar Aventura</value>
-  </data>
-  <data name="excluirAventuraToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Excluir Aventura</value>
-  </data>
-  <data name="aventurasToolStripMenuItem1.Text" xml:space="preserve">
-    <value>&amp;Todas Aventuras </value>
-  </data>
   <data name="aventurasToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Aventuras</value>
   </data>
@@ -139,6 +130,15 @@
   <data name="menuStrip1.Text" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
+  <data name="tsmiAdicionarAventura.Text" xml:space="preserve">
+    <value>Ad&amp;icionar Aventura</value>
+  </data>
+  <data name="tsmiExcluirAventura.Text" xml:space="preserve">
+    <value>&amp;Excluir Aventura</value>
+  </data>
+  <data name="tmsiAventurasReg.Text" xml:space="preserve">
+    <value>Aventuras &amp;Registradas</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
@@ -147,105 +147,250 @@
     <value>9</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pbD4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="tlpTodosDados.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="pbD4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tlpTodosDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 3</value>
+  </data>
+  <data name="tlpTodosDados.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tlpTodosDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1040, 159</value>
+  </data>
+  <data name="pbLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="pbLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAAA3CAYAAAC4u5yaAAAABGdBTUEAALGPC/xhBQAAAWhJREFUaEPt
-        lMttwzAQBd1b6kgbbiEVpC4DSQs+55ZzggALiRh9loxXokm+B8xBhm1y5qDL5dz9FNLtKOrR7Sjq0dUm
-        sdvXdxG9RVEI29AhJoGXt9vE6/vnKtePu0urURTCNnSIVfmoEC1FUQjb0CFc+SNCPGMUhbANHaJIfi8E
-        JCYom8vZURTCNnSIf8szRPpf6TsiIkTKUVEUwjZ0iBD5P9bkU3hxSj3Ko1EUwjZ0iDD5lNohUnKjKIRt
-        6BCHyKfg8CIoEgnOmh8oEAXlSuDlI8FZ8wMFoqBcCbx8JDhrfqBANHw31HhHpCiEoRCGQhgKYSiEoRDG
-        ZoijozBAjRD0VIgliw+qhDgLerohcqCoBwNEh+D9Cll8kA1FPRhAIZ40xNb4xWwYIDoEzyukePyDbBhA
-        IToJkTMesgsDeCH4+wyqjRfZhQEUosMQW+MFo2lmvHg0zYwXj6b5Ucij21HUo9tR1OO0/QKNepCsLd+v
-        EAAAAABJRU5ErkJggg==
+        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
+        cVQWyJ78Ns3pLR2qvCyeS/y7r/7WvXM+hk6SffhtmtNbervy8r+15Hz8oJI8h3lrTm+p8srp+C8tfYQf
+        Z5LLzFtzesQS+uB18nr3toemxkW9iQ8Wzxbc26DL+VhAj/DjTHKZeWvGj1hChy4vC2Yl9zbocj4W0CP8
+        OJNcZt5aOCOWUOX1Lfc26HI+FtAj/DiTXGbeWjgjllDl9S33NuhyPn5QSbb1T385Zt5aOCOW0KXy8j+X
+        e9tDU+OiFsxK7u2PkGRf/t8K5fgsrcprAff2w0myL4Mxx2dpVV4LuLcfTpJ9GYw5Pkur8lrAvf1wkuzL
+        YMzxWVqXysuCWcm97aGpcVELZiX39sNJsi+DMcdnaVVe8Oau8e8rr+T4DMYcn6VVeT2hvHzZSZJtmLdm
+        9ErubQ9NjYtaMJd4c9f495VXkjyPeWtGr+Te9tDUuKgFc4k3d41/X3klyfOYt2b0Su5tD02Niz5SUPdy
+        b192kmQb5q15vJJ720NT46KVV5Kcj3lrHq/k3vbQ1Lho5ZUk52Pemscrubc9NDUuumd5JUmewzxeyb3t
+        oalxUf3iR99dxr2SJM9hHq/k3vbQ1LiovIktuVeS5DnM45Xc2x6aGheVN7El90qSPId5vJJ720NT46Ly
+        JrbkXkmS5zCPV3Jve2jJuKk3lSTJZ/aGvfKU8Sa8ySRJPrM37JWnjDfhTSZJ8pm9Ya88ZbwJbzJJks/s
+        DXvlKeNNyJtOkpybPXCNvfKU8SbkQyVJzs0euMZeecp4E/KhkiTnZg9cY688ZbwJ+VBJknOzB66xVw4x
+        3mSS5NzsgZccHypJcm72wEuOD5UkOTd74CXHh0qSnJs90DRN0zRN0zRN0zRN0zRN0zRN0zTNeP4PXhH/
+        TySS0sMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pbD4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="pbLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
-  <data name="pbD4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 31</value>
+  <data name="pbLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 159</value>
   </data>
-  <data name="pbD4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 55</value>
+  <data name="pbLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="pbD6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1902, 939</value>
+  </data>
+  <data name="nUDd4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="pbD6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAABECAYAAAA1DeP1AAAABGdBTUEAALGPC/xhBQAAAdJJREFUeF7t
-        0MttxDAMhOEtLUXsNecUlGZSRjpIKQkQEFnnl7iUbPohYQh8h33Y5Mztdux8d5p2GDQy7TBoZPhhoF9f
-        729d+PyIBfFwFTFzETyqwEDZuM+x+3BhgYdn4z7H7sOFBR6ejfscm4YvK/Coq+LdDnf4xwIXXhXvdrjD
-        Pxa48Kp4t6Me/vN+/8MXz2KZkaWoCBXhFPHx8lo1YkHLmz0q4uwisDjE53swdA32xUV4egti0Aifr2G4
-        HtinIsy+RfQG632W4XqkFeHxljFEZPksQ2RQEUZFmN2LWOL7GdbDQxkig4owwxSxt1OLqOGBR1ER5rQi
-        evHwbNj3+MAQGRiuBw/Phn2PDwyRgeF68PBs2Pf4wBAZWt7PA2uH8rcMKsKoCKMijIowKsKoCKMijIow
-        KsKoCKMizKFFLGFxiIdnwz4VYVSEOa4IDw88ioowKsKoCKMijIowbhEtGCIDD8zAuxsUXzzFEBkYIgPv
-        blB88RRDZGCIDLy7wb/hj6swaIQhIty3gTv84yoMGmHQCPdt4A7/uAqDRhg0wn0bbBq+rBkLiIrg8512
-        Hy5sxgJUxCRFtAyPyjbM8PBswwwPzzb0MEyLKYchW0w5DNnisPkBx+lpcPRh5C0AAAAASUVORK5CYII=
-</value>
+  <data name="nUDd4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 114</value>
   </data>
-  <data name="pbD6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="nUDd4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
   </data>
-  <data name="pbD6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 25</value>
+  <data name="nUDd4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
-  <data name="pbD6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 68</value>
-  </data>
-  <data name="pbD8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="nUDd6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="pbD8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="nUDd6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 114</value>
+  </data>
+  <data name="nUDd6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 114</value>
+  </data>
+  <data name="nUDd8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 114</value>
+  </data>
+  <data name="nUDd10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 114</value>
+  </data>
+  <data name="nUDd12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd12.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 114</value>
+  </data>
+  <data name="nUDd20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd20.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd100.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 114</value>
+  </data>
+  <data name="nUDd100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd100.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="tbModificador.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tbModificador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 33</value>
+  </data>
+  <data name="pbD20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbD20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAgJJREFUeF7t
-        kNtNBDEMRbcp2qALxD8VUATt0AHfdEENixRFwZwleDz2zM4kvtL52Icdn3u57JurkWFDUY1hQ1GNodLE
-        Pq6fJkYrJYuombqIJvD4/tygqIWzlpJF1ExdxJ/yUUVIjl5KFlEzdRGq/BZFSI5SShZRM3URJvmti5Ds
-        XUoWUbO6CByqQlENzG+S9gDlLFBUg6IWsCssbSnlLFBUg3IWsCssbSnlNDxiUbOUsWa1/BGK6O2h5JJk
-        ETVTFxEiL/HIeGZ7LC0li6iZuohweYlHxjO7BJaSRWQRWUQhi6jsWoQED6vw8GjwXhZRySIqPx+evl5V
-        KKfhEbPOPry9mMgisojAInqwgOgiKBFBtwhPKSzgqEXQU3DzRYGiGixg2iJ6eGQ8sz3oKfgV/lignAWP
-        jGe2twd0wz8WKGfBI+OZ7e0B3fCPBcpZ8Mh4Znt7wKJwqEBRDY9M1CwwhwsKFNWIkuFvGrxbYA4XFChq
-        gbs0KGeBuwSucFmBohqc16CcBucFYeHiAkU1OK9BUQ3OC8LCxQWKavDwaHjfFkXI8JHFpfDwCHjH1vIy
-        fDCLmL0IGT7+bymUWAvfu5e8DA/JImYvQoZH3ZRCIQvcezR5GR6YRcxehAyPLVBOg/NnkZfh4VnE7EXI
-        UGItpw+F1nL6UGgtQ4VyGsOGohrDhqIau+Ub7RO9vxR3nCsAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAjlJREFUeF7t
+        kMFNA0EMRVMIDVAEd2pB4kQRXCiCNiiDE21w5wBSNCTDW1sez3omu8GW3mET+8///3AYP99B7H4YqJfd
+        DwP1spuh8SMfn18hUHfLBdFgFnHNRfDxBTQ+C/pQCBsKL6DBWdCHQthQeAENzoI+FNxDgSOPb+8naGSr
+        1J6Zp6UgLmYR/7EIMXAUNNgLdSNgKVlEFjGxCI2751cR7o0kiyhkEYWpRTBoL9SNIIsoZBGFLKIwpAiI
+        ijCcBe8l6MMDtIaIijCoBe8l6MMDtM4fN/cPJ3hkQYMSDGrBewn6sKgzQuv84S2ivmUIiZb9lh1tn/4k
+        sogsYkIRNTQo0RKyZUfbpyeJLKLgLqKlFJqyaAnZsqPt058U/mJFrAnG/ySyCGGf/rKIrRThDbPmNosQ
+        9ukvvIgaGpHwhllzq+3Tt8SQIjRDXrw62j59S2QRWcSgIjQTa/Bqavv0LZFFRBShCdFgL17NKP9hRXhh
+        IAneSNT79GcBrfMHFy1oygNDS/BG4mJF3D69nKApD9SV4I2E5o1aEtCSRTW8j83E6y2LKLiLqB/wPjYT
+        +rN8ZhGFLKLQVATFLPjILOjDor7NIgpZREEtQoNiFjQbDd+zYB6FxQ8LKGxB49HwPQvmUVj8sIDCFjQe
+        Dd+zYB6FP8M/m+HjvzBEL9R1htRQh4vN0GAWcSVFaEOBZmjcKoh7lwqsDYWbYaAs4kqKaBk+PovNDQ3O
+        YnNDg7PYzdB4L7sfBupl98NAvQydH47Lo9qK6hMlAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pbD8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="pbD20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pbD8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 24</value>
+  <data name="pbD20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 16</value>
   </data>
-  <data name="pbD8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="pbD20.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 69</value>
   </data>
-  <data name="pbD10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="pbD100.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="pbD10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbD100.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAfVJREFUeF7t
-        k0FOxDAMRefG3AmuwyXYskBiP1KRqmpk3thxkqadJvGX3gLquv4Pcbudm6WQYcOiHsOGRT2GyqPY7/Kp
-        8nX/URlNSojYMrUItfzy/V7ECFJCxJapRTQpb9GTlBCxZWoRavmjRVxRSojYMrWI08pbUMarpISILVOL
-        cMtfQcQZUkLElqlFXKq8BQVo7JXSRITcw2cpcLy5g6U1QsQOEUXlexFRI6WJCB5vlSA5s5xhUQ/cZOYx
-        xKIe1rE8PEXOLGdY1AM3tSnfo4iUlMcPLFcCD7YOT5EzyxmWKyFEhIgQoRIiPBH3j7dqeLB1eIqcWc7w
-        D1JCiAgRJ4iw4OEpUrPa8SxWSohQdoUITYSEhWqxdrIoRfBo7Xg+y4E9BU+/WGGhWqydlDCkCO7SoITU
-        v4CExUrhPsG/8OEKi3rwfQ0eSDif+54GdwjMcHCFRT34vgaPJZzPfU+DOwRmOLjCoi3gsUfCPjkiZPhS
-        Uyk8tjW8u7S8DBeEiNlFyHDZbik8vAW8r1V5GS4OEbOLkOFHqqSwRC284+jyMvxgiJhdhAw/ni2FhUrg
-        915VXoaHhIjZRcjwqKQUlvPg3quVl+GBIWJ2ETI89kkKi2rw/V7Ky/DwEDG7CBmWqKX7sFAt3YeFahkq
-        LOcxbFjUY9iwqMdp+QM0iSNi/X4byQAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAiNJREFUeF7t
+        kMGNwzAMBFNjfikiHaSVe+R7NaSJe101hxwQSAI9Ii1ZthzH5gLzsanlck+ndfWcyG7FQ0vsVjy0xEeK
+        R2T83e+J5+OhImf43mBzYsAMLyKwtyIY5MXP9ZqQx9Qcb8H3EbmLOdYsiAu9iCMWoR5sweA9i7DoVYoX
+        EXToIpJRTYiag3vMMIeWZ24pXkSQFxGUHlsLakJb8P3SPjKzF+FFzC9CPf7Ti2gpxYsI8iKC1CK0BZwt
+        HYMAKr18vAgvQs/M3DxeKg1pRlwoF2vF0Y9zhJ5L+9CLx0sNFnoRBy1isESDi7RlEm2p5TPmubQPkXNe
+        hBcxUgQNI7+3W8Ja1jojkfM9fIic8yK8iIYiJDFAzbIxb3mM5tnDh8g5L8KL8CJUXy/CixgpwjKQSzST
+        OTNWsB4+/AeyD2lhRFvM2dYZK2QPH/4D2Ye0MKIt5mzrjBWyhw//gYEGBlymPM5g0AjnNHgQPZbwwayp
+        NORFBLyIgFZELQy/JR8vwouYWYTk+3JJcElEznydzyrv8uE9XkSOKQ4etgip9MAKURPagu97+rQcL+VF
+        BHkRQTR4wYXa4hr4fmkf5vYiciaLBoctQopmGTXH9JhhDoPFROOMqQfwX+sMcxgsJhpnTD2A/1pnmMOg
+        i7ikGh5Ugu8n0l1cWA0PLcH3E+kuLqyGh5bg+4m8TQyyFpsTA67F5sSAa/GR4hEldiseWmK34qElVtM/
+        TPtA0gjzvawAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pbD10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="pbD100.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pbD10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 24</value>
+  <data name="pbD100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 16</value>
   </data>
-  <data name="pbD10.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="pbD100.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 69</value>
   </data>
   <data name="pbD12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -269,135 +414,155 @@
     <value>NoControl</value>
   </data>
   <data name="pbD12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 24</value>
+    <value>502, 16</value>
   </data>
   <data name="pbD12.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 69</value>
   </data>
-  <data name="pbD20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="pbD10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="pbD20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="pbD10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAfVJREFUeF7t
+        k0FOxDAMRefG3AmuwyXYskBiP1KRqmpk3thxkqadJvGX3gLquv4Pcbudm6WQYcOiHsOGRT2GyqPY7/Kp
+        8nX/URlNSojYMrUItfzy/V7ECFJCxJapRTQpb9GTlBCxZWoRavmjRVxRSojYMrWI08pbUMarpISILVOL
+        cMtfQcQZUkLElqlFXKq8BQVo7JXSRITcw2cpcLy5g6U1QsQOEUXlexFRI6WJCB5vlSA5s5xhUQ/cZOYx
+        xKIe1rE8PEXOLGdY1AM3tSnfo4iUlMcPLFcCD7YOT5EzyxmWKyFEhIgQoRIiPBH3j7dqeLB1eIqcWc7w
+        D1JCiAgRJ4iw4OEpUrPa8SxWSohQdoUITYSEhWqxdrIoRfBo7Xg+y4E9BU+/WGGhWqydlDCkCO7SoITU
+        v4CExUrhPsG/8OEKi3rwfQ0eSDif+54GdwjMcHCFRT34vgaPJZzPfU+DOwRmOLjCoi3gsUfCPjkiZPhS
+        Uyk8tjW8u7S8DBeEiNlFyHDZbik8vAW8r1V5GS4OEbOLkOFHqqSwRC284+jyMvxgiJhdhAw/ni2FhUrg
+        915VXoaHhIjZRcjwqKQUlvPg3quVl+GBIWJ2ETI89kkKi2rw/V7Ky/DwEDG7CBmWqKX7sFAt3YeFahkq
+        LOcxbFjUY9iwqMdp+QM0iSNi/X4byQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pbD10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pbD20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>598, 28</value>
+  <data name="pbD10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 16</value>
   </data>
-  <data name="pbD20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 62</value>
+  <data name="pbD10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 69</value>
   </data>
-  <data name="pbD100.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="pbD8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="pbD100.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="pbD8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAgJJREFUeF7t
+        kNtNBDEMRbcp2qALxD8VUATt0AHfdEENixRFwZwleDz2zM4kvtL52Icdn3u57JurkWFDUY1hQ1GNodLE
+        Pq6fJkYrJYuombqIJvD4/tygqIWzlpJF1ExdxJ/yUUVIjl5KFlEzdRGq/BZFSI5SShZRM3URJvmti5Ds
+        XUoWUbO6CByqQlENzG+S9gDlLFBUg6IWsCssbSnlLFBUg3IWsCssbSnlNDxiUbOUsWa1/BGK6O2h5JJk
+        ETVTFxEiL/HIeGZ7LC0li6iZuohweYlHxjO7BJaSRWQRWUQhi6jsWoQED6vw8GjwXhZRySIqPx+evl5V
+        KKfhEbPOPry9mMgisojAInqwgOgiKBFBtwhPKSzgqEXQU3DzRYGiGixg2iJ6eGQ8sz3oKfgV/lignAWP
+        jGe2twd0wz8WKGfBI+OZ7e0B3fCPBcpZ8Mh4Znt7wKJwqEBRDY9M1CwwhwsKFNWIkuFvGrxbYA4XFChq
+        gbs0KGeBuwSucFmBohqc16CcBucFYeHiAkU1OK9BUQ3OC8LCxQWKavDwaHjfFkXI8JHFpfDwCHjH1vIy
+        fDCLmL0IGT7+bymUWAvfu5e8DA/JImYvQoZH3ZRCIQvcezR5GR6YRcxehAyPLVBOg/NnkZfh4VnE7EXI
+        UGItpw+F1nL6UGgtQ4VyGsOGohrDhqIau+Ub7RO9vxR3nCsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pbD8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pbD100.Location" type="System.Drawing.Point, System.Drawing">
-    <value>717, 28</value>
+  <data name="pbD8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 16</value>
   </data>
-  <data name="pbD100.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 62</value>
+  <data name="pbD8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 69</value>
   </data>
-  <data name="nUDd4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="pbD6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="nUDd4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 134</value>
+  <data name="pbD6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABECAYAAAA1DeP1AAAABGdBTUEAALGPC/xhBQAAAdJJREFUeF7t
+        0MttxDAMhOEtLUXsNecUlGZSRjpIKQkQEFnnl7iUbPohYQh8h33Y5Mztdux8d5p2GDQy7TBoZPhhoF9f
+        729d+PyIBfFwFTFzETyqwEDZuM+x+3BhgYdn4z7H7sOFBR6ejfscm4YvK/Coq+LdDnf4xwIXXhXvdrjD
+        Pxa48Kp4t6Me/vN+/8MXz2KZkaWoCBXhFPHx8lo1YkHLmz0q4uwisDjE53swdA32xUV4egti0Aifr2G4
+        HtinIsy+RfQG632W4XqkFeHxljFEZPksQ2RQEUZFmN2LWOL7GdbDQxkig4owwxSxt1OLqOGBR1ER5rQi
+        evHwbNj3+MAQGRiuBw/Phn2PDwyRgeF68PBs2Pf4wBAZWt7PA2uH8rcMKsKoCKMijIowKsKoCKMijIow
+        KsKoCKMizKFFLGFxiIdnwz4VYVSEOa4IDw88ioowKsKoCKMijIowbhEtGCIDD8zAuxsUXzzFEBkYIgPv
+        blB88RRDZGCIDLy7wb/hj6swaIQhIty3gTv84yoMGmHQCPdt4A7/uAqDRhg0wn0bbBq+rBkLiIrg8512
+        Hy5sxgJUxCRFtAyPyjbM8PBswwwPzzb0MEyLKYchW0w5DNnisPkBx+lpcPRh5C0AAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="nUDd4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
+  <data name="pbD6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="nUDd4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="pbD6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 17</value>
   </data>
-  <data name="nUDd6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="pbD6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 68</value>
+  </data>
+  <data name="pbD4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="nUDd6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 134</value>
+  <data name="pbD4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAAA3CAYAAAC4u5yaAAAABGdBTUEAALGPC/xhBQAAAWhJREFUaEPt
+        lMttwzAQBd1b6kgbbiEVpC4DSQs+55ZzggALiRh9loxXokm+B8xBhm1y5qDL5dz9FNLtKOrR7Sjq0dUm
+        sdvXdxG9RVEI29AhJoGXt9vE6/vnKtePu0urURTCNnSIVfmoEC1FUQjb0CFc+SNCPGMUhbANHaJIfi8E
+        JCYom8vZURTCNnSIf8szRPpf6TsiIkTKUVEUwjZ0iBD5P9bkU3hxSj3Ko1EUwjZ0iDD5lNohUnKjKIRt
+        6BCHyKfg8CIoEgnOmh8oEAXlSuDlI8FZ8wMFoqBcCbx8JDhrfqBANHw31HhHpCiEoRCGQhgKYSiEoRDG
+        ZoijozBAjRD0VIgliw+qhDgLerohcqCoBwNEh+D9Cll8kA1FPRhAIZ40xNb4xWwYIDoEzyukePyDbBhA
+        IToJkTMesgsDeCH4+wyqjRfZhQEUosMQW+MFo2lmvHg0zYwXj6b5Ucij21HUo9tR1OO0/QKNepCsLd+v
+        EAAAAABJRU5ErkJggg==
+</value>
   </data>
-  <data name="nUDd6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
+  <data name="pbD4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="nUDd6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="pbD4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 23</value>
   </data>
-  <data name="nUDd8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="pbD4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 55</value>
+  </data>
+  <data name="sbLimpar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="nUDd8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 134</value>
+  <data name="sbLimpar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 32</value>
   </data>
-  <data name="nUDd8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
+  <data name="sbLimpar.Text" xml:space="preserve">
+    <value>Limpar</value>
   </data>
-  <data name="nUDd8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="lbModificador.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
-  <data name="nUDd10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="lbModificador.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbModificador.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 18pt</value>
+  </data>
+  <data name="lbModificador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 33</value>
+  </data>
+  <data name="lbModificador.Text" xml:space="preserve">
+    <value>Modificador</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="nUDd10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 134</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="nUDd10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 24pt</value>
   </data>
-  <data name="nUDd10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="nUDd12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 46</value>
   </data>
-  <data name="nUDd12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 134</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>+</value>
   </data>
-  <data name="nUDd12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd12.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="nUDd20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="nUDd20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 134</value>
-  </data>
-  <data name="nUDd20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd20.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="nUDd100.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="nUDd100.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 134</value>
-  </data>
-  <data name="nUDd100.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd100.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="tlpTodosDados.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tlpTodosDados.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 3</value>
-  </data>
-  <data name="tlpTodosDados.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tlpTodosDados.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1040, 183</value>
-  </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1902, 939</value>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
 </root>

@@ -117,612 +117,155 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="numericUpDown4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>474, 134</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;nUDd20.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;nUDd12.Name" xml:space="preserve">
-    <value>nUDd12</value>
-  </data>
-  <data name="pbD4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 31</value>
-  </data>
-  <data name="&gt;&gt;pbD10.Name" xml:space="preserve">
-    <value>pbD10</value>
-  </data>
-  <data name="&gt;&gt;nUDd10.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;nUDd6.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;excluirAventuraToolStripMenuItem.Name" xml:space="preserve">
-    <value>excluirAventuraToolStripMenuItem</value>
-  </data>
-  <data name="numericUpDown5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>619, 134</value>
-  </data>
-  <data name="&gt;&gt;nUDd20.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
+  <data name="&gt;&gt;aventurasToolStripMenuItem.Name" xml:space="preserve">
+    <value>aventurasToolStripMenuItem</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pbD20.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nUDd4.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="numericUpDown6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>764, 134</value>
-  </data>
-  <data name="excluirAventuraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 26</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 25</value>
-  </data>
-  <data name="&gt;&gt;nUDd100.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nUDd10.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;pbD4.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;pbD6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pbD12.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
-    <value>pictureBox3</value>
-  </data>
   <data name="pbD6.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;pbD12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nUDd6.Name" xml:space="preserve">
-    <value>nUDd6</value>
-  </data>
-  <data name="&gt;&gt;pbD20.Name" xml:space="preserve">
-    <value>pbD20</value>
-  </data>
-  <data name="&gt;&gt;nUDd6.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;pbD20.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nUDd20.Name" xml:space="preserve">
-    <value>nUDd20</value>
-  </data>
-  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="numericUpDown7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>909, 134</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Mestre RPG</value>
-  </data>
-  <data name="nUDd10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>474, 134</value>
-  </data>
-  <data name="&gt;&gt;pbD8.Name" xml:space="preserve">
-    <value>pbD8</value>
-  </data>
-  <data name="numericUpDown4.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;pbD10.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="pbD12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>619, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox6.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;nUDd100.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="numericUpDown3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 134</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1902, 973</value>
-  </data>
-  <data name="&gt;&gt;pbD4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
-    <value>numericUpDown2</value>
-  </data>
-  <data name="&gt;&gt;pbD6.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox6.Name" xml:space="preserve">
-    <value>pictureBox6</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown5.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="numericUpDown3.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="pbD10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>474, 24</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbD100.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;pbD12.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;pbD4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="numericUpDown7.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;nUDd8.Name" xml:space="preserve">
-    <value>nUDd8</value>
-  </data>
-  <data name="pbD8.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown5.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="pbD20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>735, 28</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown6.Name" xml:space="preserve">
-    <value>numericUpDown6</value>
-  </data>
-  <data name="&gt;&gt;dadosToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;nUDd12.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown6.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="aventurasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 26</value>
-  </data>
-  <data name="nUDd6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 134</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;tmsiAventurasReg.Name" xml:space="preserve">
+    <value>tmsiAventurasReg</value>
   </data>
   <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>474, 24</value>
-  </data>
-  <data name="dadosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 24</value>
-  </data>
-  <data name="nUDd100.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;pbD100.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="nUDd8.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;aventurasToolStripMenuItem1.Name" xml:space="preserve">
-    <value>aventurasToolStripMenuItem1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="adicionarAventuraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 26</value>
-  </data>
-  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>735, 28</value>
-  </data>
-  <data name="&gt;&gt;nUDd100.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown4.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;nUDd8.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;aventurasToolStripMenuItem.Name" xml:space="preserve">
-    <value>aventurasToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown7.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown7.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="aventurasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 24</value>
-  </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pbD4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
-    <value>pictureBox4</value>
-  </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 31</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Pixel UniCode, 13.8pt</value>
-  </data>
-  <data name="numericUpDown6.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="nUDd20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>764, 134</value>
-  </data>
-  <data name="&gt;&gt;pbD4.Name" xml:space="preserve">
-    <value>pbD4</value>
-  </data>
-  <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;pictureBox6.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;pbD10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tlpTodosDados.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pictureBox6.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;excluirAventuraToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;dadosToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;nUDd10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="numericUpDown5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;nUDd8.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
+  <data name="&gt;&gt;pbD6.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;nUDd4.Name" xml:space="preserve">
-    <value>nUDd4</value>
+  <data name="&gt;&gt;sbLimpar.Name" xml:space="preserve">
+    <value>sbLimpar</value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 24</value>
+  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;pbD12.Name" xml:space="preserve">
-    <value>pbD12</value>
+  <data name="&gt;&gt;sbLimpar.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
-  <data name="&gt;&gt;aventurasToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tsmiAdicionarAventura.Name" xml:space="preserve">
+    <value>tsmiAdicionarAventura</value>
   </data>
-  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbModificador.Parent" xml:space="preserve">
     <value>tlpTodosDados</value>
   </data>
-  <data name="pictureBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>880, 28</value>
+  <data name="&gt;&gt;pbLogo.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>619, 24</value>
-  </data>
-  <data name="&gt;&gt;nUDd10.Name" xml:space="preserve">
-    <value>nUDd10</value>
-  </data>
-  <data name="&gt;&gt;pbD12.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;pbD10.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dadosToolStripMenuItem.Name" xml:space="preserve">
-    <value>dadosToolStripMenuItem</value>
-  </data>
-  <data name="nUDd100.Location" type="System.Drawing.Point, System.Drawing">
-    <value>909, 134</value>
-  </data>
-  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="nUDd6.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;pictureBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="nUDd10.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="tlpTodosDados.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown3.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;pbD20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbD8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tlpTodosDados.Name" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;nUDd12.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tlpTodosDados.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pbD4" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pbD6" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pbD8" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pbD10" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pbD12" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="pbD20" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="pbD100" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="nUDd4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="nUDd6" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="nUDd8" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="nUDd10" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="nUDd12" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="nUDd20" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="nUDd100" Row="1" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,11,516169,Percent,11,520776,Percent,11,520777,Percent,11,520777,Percent,11,520777,Percent,11,520777,Percent,11,520777,Percent,9,679587,Percent,9,679587" /&gt;&lt;Rows Styles="Percent,64,48087,Percent,35,519127" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="pbD8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 24</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tlpTodosDados.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pbD6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 25</value>
-  </data>
-  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
-    <value>pictureBox5</value>
-  </data>
-  <data name="pbD100.Location" type="System.Drawing.Point, System.Drawing">
-    <value>880, 28</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 26</value>
-  </data>
-  <data name="&gt;&gt;pbD6.Name" xml:space="preserve">
-    <value>pbD6</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="numericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 134</value>
-  </data>
-  <data name="&gt;&gt;adicionarAventuraToolStripMenuItem.Name" xml:space="preserve">
-    <value>adicionarAventuraToolStripMenuItem</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;tlpTodosDados.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;numericUpDown7.Parent" xml:space="preserve">
     <value>tlpTodosDados</value>
   </data>
   <data name="&gt;&gt;pbD100.Name" xml:space="preserve">
     <value>pbD100</value>
   </data>
-  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
-    <value>numericUpDown1</value>
-  </data>
-  <data name="&gt;&gt;pbD8.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;numericUpDown3.Parent" xml:space="preserve">
     <value>tlpTodosDados</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown5.Name" xml:space="preserve">
-    <value>numericUpDown5</value>
-  </data>
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tlpTodosDados" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,23,Percent,55,Percent,22" /&gt;&lt;Rows Styles="Percent,20,127798,Percent,79,8722" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="nUDd20.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;nUDd6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox6.Parent" xml:space="preserve">
     <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown7.Name" xml:space="preserve">
-    <value>numericUpDown7</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frmPrincipal</value>
-  </data>
-  <data name="&gt;&gt;nUDd4.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown3.Name" xml:space="preserve">
-    <value>numericUpDown3</value>
-  </data>
-  <data name="&gt;&gt;pbD20.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;pbD100.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;aventurasToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="&gt;&gt;nUDd20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="nUDd12.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;pbD6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pbD10.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nUDd8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tlpTodosDados.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 3</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.ZOrder" xml:space="preserve">
-    <value>8</value>
   </data>
   <data name="&gt;&gt;numericUpDown4.Name" xml:space="preserve">
     <value>numericUpDown4</value>
   </data>
-  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;pbD20.Name" xml:space="preserve">
+    <value>pbD20</value>
   </data>
-  <data name="nUDd8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 134</value>
+  <data name="&gt;&gt;nUDd4.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
   </data>
-  <data name="numericUpDown5.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
   </data>
-  <data name="&gt;&gt;adicionarAventuraToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;nUDd20.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpTodosDados.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="nUDd4" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="nUDd6" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="nUDd8" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="nUDd10" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="nUDd12" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="nUDd20" Row="2" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="nUDd100" Row="2" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="tbModificador" Row="1" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="pbD20" Row="0" RowSpan="2" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="pbD100" Row="0" RowSpan="2" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="pbD12" Row="0" RowSpan="2" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="pbD10" Row="0" RowSpan="2" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pbD8" Row="0" RowSpan="2" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pbD6" Row="0" RowSpan="2" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pbD4" Row="0" RowSpan="2" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="sbLimpar" Row="2" RowSpan="1" Column="7" ColumnSpan="2" /&gt;&lt;Control Name="lbModificador" Row="0" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="0" RowSpan="2" Column="7" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,11,453784,Percent,11,458366,Percent,11,458366,Percent,11,458366,Percent,11,458366,Percent,11,458366,Percent,11,458366,Percent,3,442787,Percent,16,353237" /&gt;&lt;Rows Styles="Percent,32,240284,Percent,32,240284,Percent,35,519436,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;pbD12.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;pbD8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mestre RPG</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown3.Name" xml:space="preserve">
+    <value>numericUpDown3</value>
+  </data>
+  <data name="&gt;&gt;pbD4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;pbD6.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;nUDd4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tsmiAdicionarAventura.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="nUDd12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>619, 134</value>
+  <data name="&gt;&gt;pbD6.Name" xml:space="preserve">
+    <value>pbD6</value>
   </data>
-  <data name="pbD100.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;tbModificador.Name" xml:space="preserve">
+    <value>tbModificador</value>
   </data>
-  <data name="&gt;&gt;nUDd12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nUDd4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nUDd100.Name" xml:space="preserve">
-    <value>nUDd100</value>
-  </data>
-  <data name="&gt;&gt;pbD8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pbD10.Parent" xml:space="preserve">
     <value>tlpTodosDados</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>tlpTodosDados</value>
+  <data name="&gt;&gt;nUDd10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 134</value>
+  <data name="numericUpDown6.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 25</value>
   </data>
-  <data name="nUDd4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 134</value>
+  <data name="nUDd8.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;nUDd12.Name" xml:space="preserve">
+    <value>nUDd12</value>
   </data>
   <data name="pbD10.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -730,16 +273,647 @@
   <data name="nUDd4.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tlpTodosDados.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btLimpar.Name" xml:space="preserve">
+    <value>btLimpar</value>
+  </data>
+  <data name="&gt;&gt;tlpTodosDados.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nUDd8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 134</value>
+  </data>
+  <data name="&gt;&gt;adicionarAventuraToolStripMenuItem.Name" xml:space="preserve">
+    <value>adicionarAventuraToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Name" xml:space="preserve">
+    <value>pictureBox6</value>
+  </data>
+  <data name="pictureBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="tmsiAventurasReg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 26</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
+    <value>numericUpDown2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;nUDd4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.Name" xml:space="preserve">
+    <value>pbLogo</value>
+  </data>
+  <data name="&gt;&gt;nUDd10.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="nUDd100.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pbD12.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown6.Name" xml:space="preserve">
+    <value>numericUpDown6</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1902, 973</value>
+  </data>
+  <data name="adicionarAventuraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 26</value>
+  </data>
+  <data name="&gt;&gt;pbD8.Name" xml:space="preserve">
+    <value>pbD8</value>
+  </data>
+  <data name="pbD8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
+    <value>numericUpDown1</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;nUDd20.Name" xml:space="preserve">
+    <value>nUDd20</value>
+  </data>
+  <data name="&gt;&gt;btLimpar.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="numericUpDown7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>909, 134</value>
+  </data>
+  <data name="&gt;&gt;pbD20.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btLimpar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbModificador.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="numericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 134</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tlpTodosDados" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pbLogo" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,23,Percent,55,Percent,22" /&gt;&lt;Rows Styles="Percent,17,571884,Percent,82,428116" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;tbModificador.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="numericUpDown6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>764, 134</value>
+  </data>
+  <data name="&gt;&gt;pbD12.Name" xml:space="preserve">
+    <value>pbD12</value>
+  </data>
+  <data name="sbLimpar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>836, 114</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lbModificador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbD4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 24</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown4.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="nUDd20.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;nUDd8.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;lbModificador.Name" xml:space="preserve">
+    <value>lbModificador</value>
+  </data>
+  <data name="&gt;&gt;tsmiExcluirAventura.Name" xml:space="preserve">
+    <value>tsmiExcluirAventura</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>871, 34</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 18</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="pbLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;tlpTodosDados.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown5.Name" xml:space="preserve">
+    <value>numericUpDown5</value>
+  </data>
+  <data name="nUDd100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>909, 134</value>
+  </data>
+  <data name="pbD12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 24</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 24</value>
+  </data>
+  <data name="pictureBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>880, 28</value>
+  </data>
+  <data name="&gt;&gt;nUDd6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbD20.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;nUDd8.Name" xml:space="preserve">
+    <value>nUDd8</value>
+  </data>
+  <data name="&gt;&gt;excluirAventuraToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbD10.Name" xml:space="preserve">
+    <value>pbD10</value>
+  </data>
+  <data name="&gt;&gt;pbD8.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="pbLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpTodosDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 3</value>
+  </data>
+  <data name="nUDd6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 134</value>
+  </data>
+  <data name="lbModificador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 18</value>
+  </data>
+  <data name="&gt;&gt;pbD12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown6.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;nUDd12.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;aventurasToolStripMenuItem1.Name" xml:space="preserve">
+    <value>aventurasToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;pbD4.Name" xml:space="preserve">
+    <value>pbD4</value>
+  </data>
+  <data name="pbD100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>880, 28</value>
+  </data>
+  <data name="numericUpDown7.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="pbD20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>735, 28</value>
+  </data>
+  <data name="&gt;&gt;sbLimpar.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="pbD12.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="dadosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 24</value>
+  </data>
+  <data name="&gt;&gt;nUDd4.Name" xml:space="preserve">
+    <value>nUDd4</value>
+  </data>
+  <data name="pbD4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nUDd12.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="pbD10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 24</value>
+  </data>
+  <data name="nUDd20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>764, 134</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tlpTodosDados.Name" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 134</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbModificador.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;nUDd20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;adicionarAventuraToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nUDd12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbModificador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>871, 54</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;nUDd100.Name" xml:space="preserve">
+    <value>nUDd100</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 26</value>
+  </data>
+  <data name="&gt;&gt;dadosToolStripMenuItem.Name" xml:space="preserve">
+    <value>dadosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="numericUpDown4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 134</value>
+  </data>
+  <data name="lbModificador.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;nUDd6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nUDd10.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nUDd100.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pbD100.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;nUDd100.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericUpDown3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="pbD100.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="nUDd4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 134</value>
+  </data>
+  <data name="&gt;&gt;tlpTodosDados.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
   <data name="&gt;&gt;numericUpDown4.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="&gt;&gt;nUDd8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbD6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmPrincipal</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pbD4.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pbD20.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="btLimpar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>836, 111</value>
+  </data>
+  <data name="tbModificador.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="aventurasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="&gt;&gt;pbD100.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="excluirAventuraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 26</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 24</value>
+  </data>
+  <data name="&gt;&gt;nUDd6.Name" xml:space="preserve">
+    <value>nUDd6</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;nUDd8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numericUpDown3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 134</value>
+  </data>
+  <data name="aventurasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 26</value>
+  </data>
+  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>735, 28</value>
+  </data>
+  <data name="&gt;&gt;pbD100.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbD20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericUpDown4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;sbLimpar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nUDd100.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;nUDd10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="sbLimpar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="nUDd6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nUDd10.Name" xml:space="preserve">
+    <value>nUDd10</value>
+  </data>
+  <data name="pbD6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 25</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.Name" xml:space="preserve">
+    <value>numericUpDown7</value>
+  </data>
+  <data name="&gt;&gt;nUDd6.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aventurasToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbD10.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pbD4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 31</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="pbD8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 24</value>
+  </data>
+  <data name="&gt;&gt;excluirAventuraToolStripMenuItem.Name" xml:space="preserve">
+    <value>excluirAventuraToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;btLimpar.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;aventurasToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>836, 28</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="nUDd12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 134</value>
+  </data>
+  <data name="btLimpar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tsmiExcluirAventura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nUDd10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 134</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="&gt;&gt;nUDd12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown5.Parent" xml:space="preserve">
+    <value>tlpTodosDados</value>
+  </data>
+  <data name="&gt;&gt;pbD8.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tmsiAventurasReg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbModificador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsmiAdicionarAventura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 26</value>
+  </data>
+  <data name="numericUpDown5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 134</value>
+  </data>
+  <data name="&gt;&gt;nUDd20.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tsmiExcluirAventura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 26</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>pt-BR</value>
   </metadata>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>29</value>
   </metadata>
 </root>
