@@ -23,8 +23,7 @@ namespace Mestre_de_Rpg.DB
                 cmd.Parameters.AddWithValue("@classe_armadura", jogador.ClasseArmadura);
                 cmd.Parameters.AddWithValue("@espacos_de_magias", espacosMagias);
                 cmd.Parameters.AddWithValue("@classe_personagem", jogador.ClassePersonagem);
-                cmd.Parameters.AddWithValue("@nivel", jogador.Nivel);                
-                cmd.ExecuteNonQuery();
+                cmd.Parameters.AddWithValue("@nivel", jogador.Nivel);
             }
             catch (Exception ex) 
             {

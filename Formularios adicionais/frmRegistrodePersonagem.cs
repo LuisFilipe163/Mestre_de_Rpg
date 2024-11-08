@@ -11,6 +11,7 @@ using System.IO;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using Mestre_de_Rpg.Entities;
+using Mestre_de_Rpg;
 
 namespace Mesa_do_Mestre
 {
@@ -286,6 +287,7 @@ namespace Mesa_do_Mestre
                 FichaJogador.Classe ClassePersonagem = (FichaJogador.Classe)cboClasse.SelectedItem;
                 uint Nivel = Convert.ToUInt32(cboNivel.SelectedItem);
 
+                
                 FichaJogador personagem = new FichaJogador(NomePersonagem, VidaMaximaPersonagem, ClasseArmaduraPersonagem, EspacoMagias, ClassePersonagem, Nivel);
                 personagem.CadastraFicha();
             }

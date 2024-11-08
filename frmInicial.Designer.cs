@@ -61,7 +61,7 @@
             dataGridView1 = new DataGridView();
             dataGridView2 = new DataGridView();
             button1 = new Button();
-            checkBox1 = new CheckBox();
+            button2 = new Button();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nUDd4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nUDd6).BeginInit();
@@ -374,15 +374,14 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // checkBox1
+            // button2
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(623, 951);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(108, 30);
-            checkBox1.TabIndex = 34;
-            checkBox1.Text = "checkBox1";
-            checkBox1.UseVisualStyleBackColor = true;
+            button2.Location = new Point(1015, 891);
+            button2.Name = "button2";
+            button2.Size = new Size(182, 36);
+            button2.TabIndex = 34;
+            button2.Text = "Adicionar jogador";
+            button2.UseVisualStyleBackColor = true;
             // 
             // frmInicial
             // 
@@ -390,7 +389,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Bisque;
             ClientSize = new Size(1902, 993);
-            Controls.Add(checkBox1);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView2);
             Controls.Add(dataGridView1);
@@ -479,6 +478,6 @@
         private DataGridView dataGridView2;
         private Button button1;
         private Panel panel1;
-        private CheckBox checkBox1;
+        private Button button2;
     }
 }

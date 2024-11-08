@@ -18,6 +18,7 @@ namespace Mestre_de_Rpg
     public partial class frmInicial : Form
     {
         public Dictionary<NumericUpDown, int> dados;
+        public Dictionary<string, int> DictAventuras;
         private readonly string botaoNormald4 = @"..\..\..\Icons\D4_default.png";
         private readonly string botaoClicadod4 = @"..\..\..\Icons\D4_selected.png";
         private readonly string botaoNormald6 = @"..\..\..\Icons\D6_default.png";
@@ -28,7 +29,6 @@ namespace Mestre_de_Rpg
         private readonly string botaoClicadod10 = @"..\..\..\Icons\D10_selected.png";
         private readonly string botaoNormald12 = @"..\..\..\Icons\D12_default.png";
         private readonly string botaoClicadod12 = @"..\..\..\Icons\D12_selected.png";
-
         public frmInicial()
         {
             InitializeComponent();
@@ -256,6 +256,7 @@ namespace Mestre_de_Rpg
             BancoDados.ExcluirTabelas();
             ExibirAventura();
             ExibirJogadores();
+            CarregarAventurasNoMenu();
         }
     }
 }

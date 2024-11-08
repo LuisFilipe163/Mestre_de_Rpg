@@ -53,7 +53,6 @@ namespace Mestre_de_Rpg.DB
             {
                 using var cmd = BancoDados.DBConnection().CreateCommand();
                 {
-                    // Consulta para buscar o id_aventura pelo nome
                     cmd.CommandText = @"SELECT id_aventura FROM Aventura WHERE nome = @nome";
                     cmd.Parameters.AddWithValue("@nome", nomeAventura);
                     object result = cmd.ExecuteScalar();
@@ -62,7 +61,7 @@ namespace Mestre_de_Rpg.DB
                     {
                         return Convert.ToInt32(result);
                     }
-                    return -1; // Retorna -1 caso não encontre a aventura
+                    return -1;
                 }
             }
             catch (Exception ex)

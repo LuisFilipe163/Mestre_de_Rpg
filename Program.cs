@@ -13,7 +13,7 @@ namespace Mestre_de_Rpg.Forms
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmInicial());
+            Application.Run(new frmPrincipal());
         }
     }
 }
