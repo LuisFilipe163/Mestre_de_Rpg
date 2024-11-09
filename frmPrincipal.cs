@@ -1,4 +1,5 @@
 ﻿using Mestre_de_Rpg.DB;
+using Mestre_de_Rpg.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -29,6 +30,9 @@ namespace Mestre_de_Rpg
         private readonly string botaoClicadod20 = @"..\..\..\Icons\D20_selected.png";
         private readonly string botaoNormald100 = @"..\..\..\Icons\D100_default.png";
         private readonly string botaoClicadod100 = @"..\..\..\Icons\D100_selected.png";
+        private readonly string deathsaveunchecked = @"..\..\..\Icons\Radio_button_unchecked.png";
+        private readonly string deathsavechecked = @"..\..\..\Icons\Radio_button_checked.png";
+
 
         public frmPrincipal()
         {
@@ -155,7 +159,39 @@ namespace Mestre_de_Rpg
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnRolar_Click(object sender, EventArgs e)
+        {
+            if (dados.All(dado => dado.Key.Value == 0))
+            {
+                lbValorResultado.Text = "";
+                return;
+            }
+
+            List<int> totalResultado = [];
+
+            foreach (var logicaDados in dados)
+            {
+                NumericUpDown qtddados = logicaDados.Key;
+                int qtdlados = logicaDados.Value;
+
+                if (qtddados.Value > 0)
+                {
+                    for (int i = 0; i < qtddados.Value; i++)
+                    {
+                        int resultado = Dado.RolarDados(1, qtdlados);
+                        totalResultado.Add(resultado);
+                    }
+                }
+            }
+
+            _ = int.TryParse(tbModificador.Text, out int modificador);
+
+            string resultadoroll = $"Soma da Rolagens ({totalResultado.Sum()}) + Modificador ({modificador}) = {(totalResultado.Sum() + modificador)}";
+
+            lbValorResultado.Text = resultadoroll;
+        }
+
+        private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -143,8 +143,14 @@
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1902, 939</value>
+  </data>
   <data name="tlpTodosDados.ColumnCount" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>10</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tlpTodosDados.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -157,7 +163,338 @@
     <value>3</value>
   </data>
   <data name="tlpTodosDados.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1040, 159</value>
+    <value>1103, 159</value>
+  </data>
+  <data name="nUDd4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 114</value>
+  </data>
+  <data name="nUDd4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 114</value>
+  </data>
+  <data name="nUDd6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 114</value>
+  </data>
+  <data name="nUDd8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 114</value>
+  </data>
+  <data name="nUDd10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 114</value>
+  </data>
+  <data name="nUDd12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd12.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 114</value>
+  </data>
+  <data name="nUDd20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd20.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nUDd100.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nUDd100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 114</value>
+  </data>
+  <data name="nUDd100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="nUDd100.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="tbModificador.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tbModificador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>933, 54</value>
+  </data>
+  <data name="tbModificador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 33</value>
+  </data>
+  <data name="tbModificador.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="pbD20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbD20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAjlJREFUeF7t
+        kMFNA0EMRVMIDVAEd2pB4kQRXCiCNiiDE21w5wBSNCTDW1sez3omu8GW3mET+8///3AYP99B7H4YqJfd
+        DwP1spuh8SMfn18hUHfLBdFgFnHNRfDxBTQ+C/pQCBsKL6DBWdCHQthQeAENzoI+FNxDgSOPb+8naGSr
+        1J6Zp6UgLmYR/7EIMXAUNNgLdSNgKVlEFjGxCI2751cR7o0kiyhkEYWpRTBoL9SNIIsoZBGFLKIwpAiI
+        ijCcBe8l6MMDtIaIijCoBe8l6MMDtM4fN/cPJ3hkQYMSDGrBewn6sKgzQuv84S2ivmUIiZb9lh1tn/4k
+        sogsYkIRNTQo0RKyZUfbpyeJLKLgLqKlFJqyaAnZsqPt058U/mJFrAnG/ySyCGGf/rKIrRThDbPmNosQ
+        9ukvvIgaGpHwhllzq+3Tt8SQIjRDXrw62j59S2QRWcSgIjQTa/Bqavv0LZFFRBShCdFgL17NKP9hRXhh
+        IAneSNT79GcBrfMHFy1oygNDS/BG4mJF3D69nKApD9SV4I2E5o1aEtCSRTW8j83E6y2LKLiLqB/wPjYT
+        +rN8ZhGFLKLQVATFLPjILOjDor7NIgpZREEtQoNiFjQbDd+zYB6FxQ8LKGxB49HwPQvmUVj8sIDCFjQe
+        Dd+zYB6FP8M/m+HjvzBEL9R1htRQh4vN0GAWcSVFaEOBZmjcKoh7lwqsDYWbYaAs4kqKaBk+PovNDQ3O
+        YnNDg7PYzdB4L7sfBupl98NAvQydH47Lo9qK6hMlAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pbD20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbD20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 16</value>
+  </data>
+  <data name="pbD20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 69</value>
+  </data>
+  <data name="pbD100.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbD100.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAiNJREFUeF7t
+        kMGNwzAMBFNjfikiHaSVe+R7NaSJe101hxwQSAI9Ii1ZthzH5gLzsanlck+ndfWcyG7FQ0vsVjy0xEeK
+        R2T83e+J5+OhImf43mBzYsAMLyKwtyIY5MXP9ZqQx9Qcb8H3EbmLOdYsiAu9iCMWoR5sweA9i7DoVYoX
+        EXToIpJRTYiag3vMMIeWZ24pXkSQFxGUHlsLakJb8P3SPjKzF+FFzC9CPf7Ti2gpxYsI8iKC1CK0BZwt
+        HYMAKr18vAgvQs/M3DxeKg1pRlwoF2vF0Y9zhJ5L+9CLx0sNFnoRBy1isESDi7RlEm2p5TPmubQPkXNe
+        hBcxUgQNI7+3W8Ja1jojkfM9fIic8yK8iIYiJDFAzbIxb3mM5tnDh8g5L8KL8CJUXy/CixgpwjKQSzST
+        OTNWsB4+/AeyD2lhRFvM2dYZK2QPH/4D2Ye0MKIt5mzrjBWyhw//gYEGBlymPM5g0AjnNHgQPZbwwayp
+        NORFBLyIgFZELQy/JR8vwouYWYTk+3JJcElEznydzyrv8uE9XkSOKQ4etgip9MAKURPagu97+rQcL+VF
+        BHkRQTR4wYXa4hr4fmkf5vYiciaLBoctQopmGTXH9JhhDoPFROOMqQfwX+sMcxgsJhpnTD2A/1pnmMOg
+        i7ikGh5Ugu8n0l1cWA0PLcH3E+kuLqyGh5bg+4m8TQyyFpsTA67F5sSAa/GR4hEldiseWmK34qElVtM/
+        TPtA0gjzvawAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pbD100.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbD100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 16</value>
+  </data>
+  <data name="pbD100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 69</value>
+  </data>
+  <data name="pbD12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbD12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAgBJREFUeF7t
+        mUFO5DAQRfvinIBTcA3uwEUQQmKNUKOW3FHxUnbKSTlt4/rSW0wndv5/o1nN5dI+VyeGDwftZfhw0F6G
+        zDLg9eVn4fvzvYqvt+vCqFJCRMrUIlzG5xhJSohImVpE0/E5epQSIlKmFvGQ8TkeKSVEpEwtoqvxOc6Q
+        EiJSphahjh9FhKeUEJEytQh1/NPzRxUs6A3/QrbYIyVEpBwWgQ8tcEwJntXg2BJWEerlHGiFhe/cnnFw
+        Dp7V4FgrJSnq5RxohYXvTCdCIu++/ZmDc+Pvv3GEJNd7C5MIDjlK6e6SCJbXqH1fI0Qod3QjwvLPITeC
+        z6x0IULCghZChDKCz6wMK8JjvCREKPeFiFFEeI+XhIhEiEh0L6LleElWhLW4Fet9pYJ8dhTuFKx+2Cxu
+        xXpfqSyfHYU7BasfNotbsd7HgizvCXcK/sRU3Ir1PhZkeU9K42VMxa1Y72NBlvfkNBH4kArPKAWr4NgS
+        OJvN8hLLWmFJDZ5RClbBsSVwNpvlJZa1wpIaPKMUrIJjS+BsNstLLNsSlm1JtYgzpbCsN9wTItZkwxen
+        FSHjLkL+54oFDtrLnvEyISIlRKRUieCIs+BojRARIhqJkLBIr7B3iFhTHV4QIv6BCLeEiJQQkcKLR8Mt
+        vHg03MKLR6NJ+JFeaR5+sFeahx/slar8AopFP4GODVafAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pbD12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbD12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 16</value>
+  </data>
+  <data name="pbD12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 69</value>
+  </data>
+  <data name="pbD10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbD10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAfVJREFUeF7t
+        k0FOxDAMRefG3AmuwyXYskBiP1KRqmpk3thxkqadJvGX3gLquv4Pcbudm6WQYcOiHsOGRT2GyqPY7/Kp
+        8nX/URlNSojYMrUItfzy/V7ECFJCxJapRTQpb9GTlBCxZWoRavmjRVxRSojYMrWI08pbUMarpISILVOL
+        cMtfQcQZUkLElqlFXKq8BQVo7JXSRITcw2cpcLy5g6U1QsQOEUXlexFRI6WJCB5vlSA5s5xhUQ/cZOYx
+        xKIe1rE8PEXOLGdY1AM3tSnfo4iUlMcPLFcCD7YOT5EzyxmWKyFEhIgQoRIiPBH3j7dqeLB1eIqcWc7w
+        D1JCiAgRJ4iw4OEpUrPa8SxWSohQdoUITYSEhWqxdrIoRfBo7Xg+y4E9BU+/WGGhWqydlDCkCO7SoITU
+        v4CExUrhPsG/8OEKi3rwfQ0eSDif+54GdwjMcHCFRT34vgaPJZzPfU+DOwRmOLjCoi3gsUfCPjkiZPhS
+        Uyk8tjW8u7S8DBeEiNlFyHDZbik8vAW8r1V5GS4OEbOLkOFHqqSwRC284+jyMvxgiJhdhAw/ni2FhUrg
+        915VXoaHhIjZRcjwqKQUlvPg3quVl+GBIWJ2ETI89kkKi2rw/V7Ky/DwEDG7CBmWqKX7sFAt3YeFahkq
+        LOcxbFjUY9iwqMdp+QM0iSNi/X4byQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pbD10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbD10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 16</value>
+  </data>
+  <data name="pbD10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 69</value>
+  </data>
+  <data name="pbD8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbD8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAgJJREFUeF7t
+        kNtNBDEMRbcp2qALxD8VUATt0AHfdEENixRFwZwleDz2zM4kvtL52Icdn3u57JurkWFDUY1hQ1GNodLE
+        Pq6fJkYrJYuombqIJvD4/tygqIWzlpJF1ExdxJ/yUUVIjl5KFlEzdRGq/BZFSI5SShZRM3URJvmti5Ds
+        XUoWUbO6CByqQlENzG+S9gDlLFBUg6IWsCssbSnlLFBUg3IWsCssbSnlNDxiUbOUsWa1/BGK6O2h5JJk
+        ETVTFxEiL/HIeGZ7LC0li6iZuohweYlHxjO7BJaSRWQRWUQhi6jsWoQED6vw8GjwXhZRySIqPx+evl5V
+        KKfhEbPOPry9mMgisojAInqwgOgiKBFBtwhPKSzgqEXQU3DzRYGiGixg2iJ6eGQ8sz3oKfgV/lignAWP
+        jGe2twd0wz8WKGfBI+OZ7e0B3fCPBcpZ8Mh4Znt7wKJwqEBRDY9M1CwwhwsKFNWIkuFvGrxbYA4XFChq
+        gbs0KGeBuwSucFmBohqc16CcBucFYeHiAkU1OK9BUQ3OC8LCxQWKavDwaHjfFkXI8JHFpfDwCHjH1vIy
+        fDCLmL0IGT7+bymUWAvfu5e8DA/JImYvQoZH3ZRCIQvcezR5GR6YRcxehAyPLVBOg/NnkZfh4VnE7EXI
+        UGItpw+F1nL6UGgtQ4VyGsOGohrDhqIau+Ub7RO9vxR3nCsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pbD8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbD8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 16</value>
+  </data>
+  <data name="pbD8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 69</value>
+  </data>
+  <data name="pbD6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbD6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAABECAYAAAA1DeP1AAAABGdBTUEAALGPC/xhBQAAAdJJREFUeF7t
+        0MttxDAMhOEtLUXsNecUlGZSRjpIKQkQEFnnl7iUbPohYQh8h33Y5Mztdux8d5p2GDQy7TBoZPhhoF9f
+        729d+PyIBfFwFTFzETyqwEDZuM+x+3BhgYdn4z7H7sOFBR6ejfscm4YvK/Coq+LdDnf4xwIXXhXvdrjD
+        Pxa48Kp4t6Me/vN+/8MXz2KZkaWoCBXhFPHx8lo1YkHLmz0q4uwisDjE53swdA32xUV4egti0Aifr2G4
+        HtinIsy+RfQG632W4XqkFeHxljFEZPksQ2RQEUZFmN2LWOL7GdbDQxkig4owwxSxt1OLqOGBR1ER5rQi
+        evHwbNj3+MAQGRiuBw/Phn2PDwyRgeF68PBs2Pf4wBAZWt7PA2uH8rcMKsKoCKMijIowKsKoCKMijIow
+        KsKoCKMizKFFLGFxiIdnwz4VYVSEOa4IDw88ioowKsKoCKMijIowbhEtGCIDD8zAuxsUXzzFEBkYIgPv
+        blB88RRDZGCIDLy7wb/hj6swaIQhIty3gTv84yoMGmHQCPdt4A7/uAqDRhg0wn0bbBq+rBkLiIrg8512
+        Hy5sxgJUxCRFtAyPyjbM8PBswwwPzzb0MEyLKYchW0w5DNnisPkBx+lpcPRh5C0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pbD6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbD6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 17</value>
+  </data>
+  <data name="pbD6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 68</value>
+  </data>
+  <data name="pbD4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbD4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEIAAAA3CAYAAAC4u5yaAAAABGdBTUEAALGPC/xhBQAAAWhJREFUaEPt
+        lMttwzAQBd1b6kgbbiEVpC4DSQs+55ZzggALiRh9loxXokm+B8xBhm1y5qDL5dz9FNLtKOrR7Sjq0dUm
+        sdvXdxG9RVEI29AhJoGXt9vE6/vnKtePu0urURTCNnSIVfmoEC1FUQjb0CFc+SNCPGMUhbANHaJIfi8E
+        JCYom8vZURTCNnSIf8szRPpf6TsiIkTKUVEUwjZ0iBD5P9bkU3hxSj3Ko1EUwjZ0iDD5lNohUnKjKIRt
+        6BCHyKfg8CIoEgnOmh8oEAXlSuDlI8FZ8wMFoqBcCbx8JDhrfqBANHw31HhHpCiEoRCGQhgKYSiEoRDG
+        ZoijozBAjRD0VIgliw+qhDgLerohcqCoBwNEh+D9Cll8kA1FPRhAIZ40xNb4xWwYIDoEzyukePyDbBhA
+        IToJkTMesgsDeCH4+wyqjRfZhQEUosMQW+MFo2lmvHg0zYwXj6b5Ucij21HUo9tR1OO0/QKNepCsLd+v
+        EAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pbD4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbD4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="pbD4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 55</value>
+  </data>
+  <data name="sbLimpar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sbLimpar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>897, 114</value>
+  </data>
+  <data name="sbLimpar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 33</value>
+  </data>
+  <data name="sbLimpar.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="lbModificador.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="lbModificador.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbModificador.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 18pt</value>
+  </data>
+  <data name="lbModificador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>953, 18</value>
+  </data>
+  <data name="lbModificador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 33</value>
+  </data>
+  <data name="lbModificador.Text" xml:space="preserve">
+    <value>Modificador</value>
+  </data>
+  <data name="lbMais.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lbMais.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbMais.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 24pt</value>
+  </data>
+  <data name="lbMais.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbMais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>896, 28</value>
+  </data>
+  <data name="lbMais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 46</value>
+  </data>
+  <data name="lbMais.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="lbMais.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="pbLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -234,335 +571,882 @@
         TySS0sMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pbLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
   <data name="pbLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>431, 159</value>
   </data>
-  <data name="pbLogo.TabIndex" type="System.Int32, mscorlib">
+  <data name="tableLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1549, 3</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 159</value>
+  </data>
+  <data name="btnRolar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnRolar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 51</value>
+  </data>
+  <data name="btnRolar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 56</value>
+  </data>
+  <data name="btnRolar.Text" xml:space="preserve">
+    <value>Rolar Dado(s)</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1902, 939</value>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="nUDd4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="lbValorResultado.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="nUDd4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 114</value>
-  </data>
-  <data name="nUDd4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="nUDd6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="nUDd6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 114</value>
-  </data>
-  <data name="nUDd6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="nUDd8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="nUDd8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 114</value>
-  </data>
-  <data name="nUDd8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="nUDd10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="nUDd10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 114</value>
-  </data>
-  <data name="nUDd10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="nUDd12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="nUDd12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 114</value>
-  </data>
-  <data name="nUDd12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd12.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="nUDd20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="nUDd20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 114</value>
-  </data>
-  <data name="nUDd20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd20.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="nUDd100.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="nUDd100.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 114</value>
-  </data>
-  <data name="nUDd100.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 33</value>
-  </data>
-  <data name="nUDd100.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="tbModificador.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="tbModificador.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 33</value>
-  </data>
-  <data name="pbD20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="pbD20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAjlJREFUeF7t
-        kMFNA0EMRVMIDVAEd2pB4kQRXCiCNiiDE21w5wBSNCTDW1sez3omu8GW3mET+8///3AYP99B7H4YqJfd
-        DwP1spuh8SMfn18hUHfLBdFgFnHNRfDxBTQ+C/pQCBsKL6DBWdCHQthQeAENzoI+FNxDgSOPb+8naGSr
-        1J6Zp6UgLmYR/7EIMXAUNNgLdSNgKVlEFjGxCI2751cR7o0kiyhkEYWpRTBoL9SNIIsoZBGFLKIwpAiI
-        ijCcBe8l6MMDtIaIijCoBe8l6MMDtM4fN/cPJ3hkQYMSDGrBewn6sKgzQuv84S2ivmUIiZb9lh1tn/4k
-        sogsYkIRNTQo0RKyZUfbpyeJLKLgLqKlFJqyaAnZsqPt058U/mJFrAnG/ySyCGGf/rKIrRThDbPmNosQ
-        9ukvvIgaGpHwhllzq+3Tt8SQIjRDXrw62j59S2QRWcSgIjQTa/Bqavv0LZFFRBShCdFgL17NKP9hRXhh
-        IAneSNT79GcBrfMHFy1oygNDS/BG4mJF3D69nKApD9SV4I2E5o1aEtCSRTW8j83E6y2LKLiLqB/wPjYT
-        +rN8ZhGFLKLQVATFLPjILOjDor7NIgpZREEtQoNiFjQbDd+zYB6FxQ8LKGxB49HwPQvmUVj8sIDCFjQe
-        Dd+zYB6FP8M/m+HjvzBEL9R1htRQh4vN0GAWcSVFaEOBZmjcKoh7lwqsDYWbYaAs4kqKaBk+PovNDQ3O
-        YnNDg7PYzdB4L7sfBupl98NAvQydH47Lo9qK6hMlAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="pbD20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbD20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 16</value>
-  </data>
-  <data name="pbD20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 69</value>
-  </data>
-  <data name="pbD100.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="pbD100.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAiNJREFUeF7t
-        kMGNwzAMBFNjfikiHaSVe+R7NaSJe101hxwQSAI9Ii1ZthzH5gLzsanlck+ndfWcyG7FQ0vsVjy0xEeK
-        R2T83e+J5+OhImf43mBzYsAMLyKwtyIY5MXP9ZqQx9Qcb8H3EbmLOdYsiAu9iCMWoR5sweA9i7DoVYoX
-        EXToIpJRTYiag3vMMIeWZ24pXkSQFxGUHlsLakJb8P3SPjKzF+FFzC9CPf7Ti2gpxYsI8iKC1CK0BZwt
-        HYMAKr18vAgvQs/M3DxeKg1pRlwoF2vF0Y9zhJ5L+9CLx0sNFnoRBy1isESDi7RlEm2p5TPmubQPkXNe
-        hBcxUgQNI7+3W8Ja1jojkfM9fIic8yK8iIYiJDFAzbIxb3mM5tnDh8g5L8KL8CJUXy/CixgpwjKQSzST
-        OTNWsB4+/AeyD2lhRFvM2dYZK2QPH/4D2Ye0MKIt5mzrjBWyhw//gYEGBlymPM5g0AjnNHgQPZbwwayp
-        NORFBLyIgFZELQy/JR8vwouYWYTk+3JJcElEznydzyrv8uE9XkSOKQ4etgip9MAKURPagu97+rQcL+VF
-        BHkRQTR4wYXa4hr4fmkf5vYiciaLBoctQopmGTXH9JhhDoPFROOMqQfwX+sMcxgsJhpnTD2A/1pnmMOg
-        i7ikGh5Ugu8n0l1cWA0PLcH3E+kuLqyGh5bg+4m8TQyyFpsTA67F5sSAa/GR4hEldiseWmK34qElVtM/
-        TPtA0gjzvawAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="pbD100.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbD100.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 16</value>
-  </data>
-  <data name="pbD100.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 69</value>
-  </data>
-  <data name="pbD12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="pbD12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAgBJREFUeF7t
-        mUFO5DAQRfvinIBTcA3uwEUQQmKNUKOW3FHxUnbKSTlt4/rSW0wndv5/o1nN5dI+VyeGDwftZfhw0F6G
-        zDLg9eVn4fvzvYqvt+vCqFJCRMrUIlzG5xhJSohImVpE0/E5epQSIlKmFvGQ8TkeKSVEpEwtoqvxOc6Q
-        EiJSphahjh9FhKeUEJEytQh1/NPzRxUs6A3/QrbYIyVEpBwWgQ8tcEwJntXg2BJWEerlHGiFhe/cnnFw
-        Dp7V4FgrJSnq5RxohYXvTCdCIu++/ZmDc+Pvv3GEJNd7C5MIDjlK6e6SCJbXqH1fI0Qod3QjwvLPITeC
-        z6x0IULCghZChDKCz6wMK8JjvCREKPeFiFFEeI+XhIhEiEh0L6LleElWhLW4Fet9pYJ8dhTuFKx+2Cxu
-        xXpfqSyfHYU7BasfNotbsd7HgizvCXcK/sRU3Ir1PhZkeU9K42VMxa1Y72NBlvfkNBH4kArPKAWr4NgS
-        OJvN8hLLWmFJDZ5RClbBsSVwNpvlJZa1wpIaPKMUrIJjS+BsNstLLNsSlm1JtYgzpbCsN9wTItZkwxen
-        FSHjLkL+54oFDtrLnvEyISIlRKRUieCIs+BojRARIhqJkLBIr7B3iFhTHV4QIv6BCLeEiJQQkcKLR8Mt
-        vHg03MKLR6NJ+JFeaR5+sFeahx/slar8AopFP4GODVafAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="pbD12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbD12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 16</value>
-  </data>
-  <data name="pbD12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 69</value>
-  </data>
-  <data name="pbD10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="pbD10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAfVJREFUeF7t
-        k0FOxDAMRefG3AmuwyXYskBiP1KRqmpk3thxkqadJvGX3gLquv4Pcbudm6WQYcOiHsOGRT2GyqPY7/Kp
-        8nX/URlNSojYMrUItfzy/V7ECFJCxJapRTQpb9GTlBCxZWoRavmjRVxRSojYMrWI08pbUMarpISILVOL
-        cMtfQcQZUkLElqlFXKq8BQVo7JXSRITcw2cpcLy5g6U1QsQOEUXlexFRI6WJCB5vlSA5s5xhUQ/cZOYx
-        xKIe1rE8PEXOLGdY1AM3tSnfo4iUlMcPLFcCD7YOT5EzyxmWKyFEhIgQoRIiPBH3j7dqeLB1eIqcWc7w
-        D1JCiAgRJ4iw4OEpUrPa8SxWSohQdoUITYSEhWqxdrIoRfBo7Xg+y4E9BU+/WGGhWqydlDCkCO7SoITU
-        v4CExUrhPsG/8OEKi3rwfQ0eSDif+54GdwjMcHCFRT34vgaPJZzPfU+DOwRmOLjCoi3gsUfCPjkiZPhS
-        Uyk8tjW8u7S8DBeEiNlFyHDZbik8vAW8r1V5GS4OEbOLkOFHqqSwRC284+jyMvxgiJhdhAw/ni2FhUrg
-        915VXoaHhIjZRcjwqKQUlvPg3quVl+GBIWJ2ETI89kkKi2rw/V7Ky/DwEDG7CBmWqKX7sFAt3YeFahkq
-        LOcxbFjUY9iwqMdp+QM0iSNi/X4byQAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="pbD10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbD10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 16</value>
-  </data>
-  <data name="pbD10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 69</value>
-  </data>
-  <data name="pbD8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="pbD8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAABGdBTUEAALGPC/xhBQAAAgJJREFUeF7t
-        kNtNBDEMRbcp2qALxD8VUATt0AHfdEENixRFwZwleDz2zM4kvtL52Icdn3u57JurkWFDUY1hQ1GNodLE
-        Pq6fJkYrJYuombqIJvD4/tygqIWzlpJF1ExdxJ/yUUVIjl5KFlEzdRGq/BZFSI5SShZRM3URJvmti5Ds
-        XUoWUbO6CByqQlENzG+S9gDlLFBUg6IWsCssbSnlLFBUg3IWsCssbSnlNDxiUbOUsWa1/BGK6O2h5JJk
-        ETVTFxEiL/HIeGZ7LC0li6iZuohweYlHxjO7BJaSRWQRWUQhi6jsWoQED6vw8GjwXhZRySIqPx+evl5V
-        KKfhEbPOPry9mMgisojAInqwgOgiKBFBtwhPKSzgqEXQU3DzRYGiGixg2iJ6eGQ8sz3oKfgV/lignAWP
-        jGe2twd0wz8WKGfBI+OZ7e0B3fCPBcpZ8Mh4Znt7wKJwqEBRDY9M1CwwhwsKFNWIkuFvGrxbYA4XFChq
-        gbs0KGeBuwSucFmBohqc16CcBucFYeHiAkU1OK9BUQ3OC8LCxQWKavDwaHjfFkXI8JHFpfDwCHjH1vIy
-        fDCLmL0IGT7+bymUWAvfu5e8DA/JImYvQoZH3ZRCIQvcezR5GR6YRcxehAyPLVBOg/NnkZfh4VnE7EXI
-        UGItpw+F1nL6UGgtQ4VyGsOGohrDhqIau+Ub7RO9vxR3nCsAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="pbD8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbD8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 16</value>
-  </data>
-  <data name="pbD8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 69</value>
-  </data>
-  <data name="pbD6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="pbD6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAABECAYAAAA1DeP1AAAABGdBTUEAALGPC/xhBQAAAdJJREFUeF7t
-        0MttxDAMhOEtLUXsNecUlGZSRjpIKQkQEFnnl7iUbPohYQh8h33Y5Mztdux8d5p2GDQy7TBoZPhhoF9f
-        729d+PyIBfFwFTFzETyqwEDZuM+x+3BhgYdn4z7H7sOFBR6ejfscm4YvK/Coq+LdDnf4xwIXXhXvdrjD
-        Pxa48Kp4t6Me/vN+/8MXz2KZkaWoCBXhFPHx8lo1YkHLmz0q4uwisDjE53swdA32xUV4egti0Aifr2G4
-        HtinIsy+RfQG632W4XqkFeHxljFEZPksQ2RQEUZFmN2LWOL7GdbDQxkig4owwxSxt1OLqOGBR1ER5rQi
-        evHwbNj3+MAQGRiuBw/Phn2PDwyRgeF68PBs2Pf4wBAZWt7PA2uH8rcMKsKoCKMijIowKsKoCKMijIow
-        KsKoCKMizKFFLGFxiIdnwz4VYVSEOa4IDw88ioowKsKoCKMijIowbhEtGCIDD8zAuxsUXzzFEBkYIgPv
-        blB88RRDZGCIDLy7wb/hj6swaIQhIty3gTv84yoMGmHQCPdt4A7/uAqDRhg0wn0bbBq+rBkLiIrg8512
-        Hy5sxgJUxCRFtAyPyjbM8PBswwwPzzb0MEyLKYchW0w5DNnisPkBx+lpcPRh5C0AAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="pbD6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbD6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 17</value>
-  </data>
-  <data name="pbD6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 68</value>
-  </data>
-  <data name="pbD4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="pbD4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEIAAAA3CAYAAAC4u5yaAAAABGdBTUEAALGPC/xhBQAAAWhJREFUaEPt
-        lMttwzAQBd1b6kgbbiEVpC4DSQs+55ZzggALiRh9loxXokm+B8xBhm1y5qDL5dz9FNLtKOrR7Sjq0dUm
-        sdvXdxG9RVEI29AhJoGXt9vE6/vnKtePu0urURTCNnSIVfmoEC1FUQjb0CFc+SNCPGMUhbANHaJIfi8E
-        JCYom8vZURTCNnSIf8szRPpf6TsiIkTKUVEUwjZ0iBD5P9bkU3hxSj3Ko1EUwjZ0iDD5lNohUnKjKIRt
-        6BCHyKfg8CIoEgnOmh8oEAXlSuDlI8FZ8wMFoqBcCbx8JDhrfqBANHw31HhHpCiEoRCGQhgKYSiEoRDG
-        ZoijozBAjRD0VIgliw+qhDgLerohcqCoBwNEh+D9Cll8kA1FPRhAIZ40xNb4xWwYIDoEzyukePyDbBhA
-        IToJkTMesgsDeCH4+wyqjRfZhQEUosMQW+MFo2lmvHg0zYwXj6b5Ucij21HUo9tR1OO0/QKNepCsLd+v
-        EAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="pbD4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbD4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 23</value>
-  </data>
-  <data name="pbD4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 55</value>
-  </data>
-  <data name="sbLimpar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="sbLimpar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 32</value>
-  </data>
-  <data name="sbLimpar.Text" xml:space="preserve">
-    <value>Limpar</value>
-  </data>
-  <data name="lbModificador.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="lbModificador.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbValorResultado.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lbModificador.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Pixel UniCode, 18pt</value>
+  <data name="lbValorResultado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 36pt</value>
   </data>
-  <data name="lbModificador.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 33</value>
+  <data name="lbValorResultado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1724, 518</value>
   </data>
-  <data name="lbModificador.Text" xml:space="preserve">
-    <value>Modificador</value>
+  <data name="lbValorResultado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 68</value>
   </data>
-  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="tableLayoutPanel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1103, 768</value>
+  </data>
+  <data name="rBCardLista.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="rBCardLista.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Pixel UniCode, 24pt</value>
+  <data name="rBCardLista.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 18</value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rBCardLista.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="rBCardLista.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 30</value>
+  </data>
+  <data name="rBCardLista.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rBCardLista.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="rBCardIniciativa.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="rBCardIniciativa.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rBCardIniciativa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 18</value>
+  </data>
+  <data name="rBCardIniciativa.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="rBCardIniciativa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 30</value>
+  </data>
+  <data name="rBCardIniciativa.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rBCardIniciativa.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pCardEntidade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="pCardEntidade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1097, 331</value>
+  </data>
+  <data name="tableLayoutPanel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="tableLayoutPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 15, 15</value>
+  </data>
+  <data name="tableLayoutPanel5.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1067, 301</value>
+  </data>
+  <data name="lbNomePersonagem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbNomePersonagem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 19.800001pt</value>
+  </data>
+  <data name="lbNomePersonagem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 46</value>
+  <data name="lbNomePersonagem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 59</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>+</value>
+  <data name="lbNomePersonagem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 33</value>
   </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="lbNomePersonagem.Text" xml:space="preserve">
+    <value>Asrael</value>
+  </data>
+  <data name="lbArmorClass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbArmorClass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 16.2pt</value>
+  </data>
+  <data name="lbArmorClass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbArmorClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 92</value>
+  </data>
+  <data name="lbArmorClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 32</value>
+  </data>
+  <data name="lbArmorClass.Text" xml:space="preserve">
+    <value>Classe de Armadura:</value>
+  </data>
+  <data name="lbCAValor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbCAValor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 16.2pt</value>
+  </data>
+  <data name="lbCAValor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbCAValor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 92</value>
+  </data>
+  <data name="lbCAValor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="lbCAValor.Text" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 22</value>
+  </data>
+  <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>741, 29</value>
+  </data>
+  <data name="lbDeathSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lbDeathSave.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbDeathSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pixel UniCode, 16.2pt</value>
+  </data>
+  <data name="lbDeathSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>755, 59</value>
+  </data>
+  <data name="lbDeathSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="lbDeathSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 32</value>
+  </data>
+  <data name="lbDeathSave.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lbDeathSave.Text" xml:space="preserve">
+    <value>Death Save     </value>
+  </data>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAG8AAABvCAYAAADixZ5gAAAABGdBTUEAALGPC/xhBQAAAltJREFUeF7t
+        2TtuwzAQRVGvKstLFSD7TZsiwRigIY+tH8XPPPI+4LaywANChW838f3+fPzl5p/FKs4fvvX1+Z2dfxag
+        BecP1h9+jfxv+ndiG2uNtReQBxYJbC0Q3RTQfNMjKqL5pkMcAc03POKIaL4hEUdH8w0BOMNtW0v6Fs4M
+        l5IEnB3NJwHIbVsv9C0Ebr+QgMAdLxQgcOcLAQhcfl0BgbteF0DgytUcELiyNcMDrk7VAYGrWzVAvnP1
+        q/b9A65NxfGAa1sxQOD6VAQQvD5dxgOub5cAwetbNh5wMcoCBC9Gp/GAi9UpQPBidRgPuJgdAgQvZrt4
+        wMVuExC82IEn3CoecBq9BQRPI/CEA0+4FzzgtHoCBE8r8IQDTzjwhHvgAafZHRA8zcATDjzhwBMOPOHA
+        Ew484cATDjzhwBMOPOHAEw484cAT7o7H30J6PeDA0ws84cATDjzhnvAA1OkFDjydwBMOPOHe4tkAjN0q
+        nA282IEn3CaeDcCY7cLZwIvZITwbgLE6DGcDL1an8GwAxug0nA28GGXh2QDsWzacDby+XcKzAdiny3A2
+        8PpUBM8GYNuKwaUB2KbicDZ7KIB1S2fsz77IwKtbNbg0AOtUHS4NwLI1g7Px/StX1e/c2gC8Xhe4NADz
+        6wqXBuD5QsClAXi8UHBpAO4XEi4NwPVCwy0H4HMSaMtxC4Vu27vNDCgNt9xsgEOgLTfDLRzmtq1tRMTh
+        0fxGQJwOzU8RcXo0PwVE0HaWDigK5PJ9/LuyjS0PrhWm/03/Tixz/mCvgvpngdV4/vDP5J+ltn+Bq1DZ
+        WHs+0QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 33</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 113</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cCBDS1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cCBDS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 95</value>
+  </data>
+  <data name="cCBDS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="cCBDS1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cCBDS1.Text" xml:space="preserve">
+    <value>customCheckBox1</value>
+  </data>
+  <data name="cCBDS2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBDS2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 95</value>
+  </data>
+  <data name="cCBDS2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 30</value>
+  </data>
+  <data name="cCBDS2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cCBDS2.Text" xml:space="preserve">
+    <value>customCheckBox2</value>
+  </data>
+  <data name="cCBDS3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBDS3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 95</value>
+  </data>
+  <data name="cCBDS3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 30</value>
+  </data>
+  <data name="cCBDS3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cCBDS3.Text" xml:space="preserve">
+    <value>customCheckBox3</value>
+  </data>
+  <data name="cCBDS4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBDS4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>831, 95</value>
+  </data>
+  <data name="cCBDS4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 30</value>
+  </data>
+  <data name="cCBDS4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cCBDS4.Text" xml:space="preserve">
+    <value>customCheckBox4</value>
+  </data>
+  <data name="cCBDS5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBDS5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>863, 95</value>
+  </data>
+  <data name="cCBDS5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 30</value>
+  </data>
+  <data name="cCBDS5.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cCBDS5.Text" xml:space="preserve">
+    <value>customCheckBox5</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 139</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 159</value>
+  </data>
+  <data name="tableLayoutPanel6.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel6.RowCount" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tableLayoutPanel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 295</value>
+  </data>
+  <data name="cCBEM3_3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM3_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM3_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 88</value>
+  </data>
+  <data name="cCBEM3_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM3_3.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cCBEM3_3.Text" xml:space="preserve">
+    <value>customCheckBox16</value>
+  </data>
+  <data name="cCBEM3_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM3_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM3_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 88</value>
+  </data>
+  <data name="cCBEM3_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="cCBEM3_2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cCBEM3_2.Text" xml:space="preserve">
+    <value>customCheckBox15</value>
+  </data>
+  <data name="cCBEM3_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM3_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM3_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 88</value>
+  </data>
+  <data name="cCBEM3_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM3_1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="cCBEM3_1.Text" xml:space="preserve">
+    <value>customCheckBox14</value>
+  </data>
+  <data name="cCBEM2_3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM2_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM2_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 58</value>
+  </data>
+  <data name="cCBEM2_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM2_3.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="cCBEM2_3.Text" xml:space="preserve">
+    <value>customCheckBox12</value>
+  </data>
+  <data name="cCBEM2_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM2_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM2_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 58</value>
+  </data>
+  <data name="cCBEM2_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="cCBEM2_2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cCBEM2_2.Text" xml:space="preserve">
+    <value>customCheckBox11</value>
+  </data>
+  <data name="cCBEM2_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM2_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM2_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 58</value>
+  </data>
+  <data name="cCBEM2_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM2_1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cCBEM2_1.Text" xml:space="preserve">
+    <value>customCheckBox10</value>
+  </data>
+  <data name="cCBEM1_4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM1_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 28</value>
+  </data>
+  <data name="cCBEM1_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="cCBEM1_4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cCBEM1_4.Text" xml:space="preserve">
+    <value>customCheckBox9</value>
+  </data>
+  <data name="cCBEM1_3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM1_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM1_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 28</value>
+  </data>
+  <data name="cCBEM1_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM1_3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cCBEM1_3.Text" xml:space="preserve">
+    <value>customCheckBox8</value>
+  </data>
+  <data name="lbEspacosMagia.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lbEspacosMagia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbEspacosMagia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 25</value>
+  </data>
+  <data name="lbEspacosMagia.Text" xml:space="preserve">
+    <value>Espaços de Magia</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 26</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>1º</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>2º</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>3º</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>4º</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>5º</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>6º</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>7º</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>8º</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>9º</value>
+  </data>
+  <data name="cCBEM1_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM1_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM1_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 28</value>
+  </data>
+  <data name="cCBEM1_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM1_1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cCBEM1_1.Text" xml:space="preserve">
+    <value>customCheckBox6</value>
+  </data>
+  <data name="cCBEM1_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM1_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 28</value>
+  </data>
+  <data name="cCBEM1_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="cCBEM1_2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cCBEM1_2.Text" xml:space="preserve">
+    <value>customCheckBox7</value>
+  </data>
+  <data name="cCBEM4_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM4_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM4_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 118</value>
+  </data>
+  <data name="cCBEM4_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM4_1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="cCBEM4_1.Text" xml:space="preserve">
+    <value>customCheckBox13</value>
+  </data>
+  <data name="cCBEM4_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM4_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM4_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 118</value>
+  </data>
+  <data name="cCBEM4_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="cCBEM4_2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="cCBEM4_2.Text" xml:space="preserve">
+    <value>customCheckBox17</value>
+  </data>
+  <data name="cCBEM4_3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM4_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM4_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 118</value>
+  </data>
+  <data name="cCBEM4_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM4_3.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="cCBEM4_3.Text" xml:space="preserve">
+    <value>customCheckBox18</value>
+  </data>
+  <data name="cCBEM5_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM5_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM5_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 148</value>
+  </data>
+  <data name="cCBEM5_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM5_1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cCBEM5_1.Text" xml:space="preserve">
+    <value>customCheckBox19</value>
+  </data>
+  <data name="cCBEM5_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM5_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM5_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 148</value>
+  </data>
+  <data name="cCBEM5_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="cCBEM5_2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="cCBEM5_2.Text" xml:space="preserve">
+    <value>customCheckBox20</value>
+  </data>
+  <data name="cCBEM5_3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM5_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM5_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 148</value>
+  </data>
+  <data name="cCBEM5_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM5_3.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cCBEM5_3.Text" xml:space="preserve">
+    <value>customCheckBox21</value>
+  </data>
+  <data name="cCBEM6_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM6_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM6_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 178</value>
+  </data>
+  <data name="cCBEM6_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM6_1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="cCBEM6_1.Text" xml:space="preserve">
+    <value>customCheckBox22</value>
+  </data>
+  <data name="cCBEM6_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM6_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM6_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 178</value>
+  </data>
+  <data name="cCBEM6_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="cCBEM6_2.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="cCBEM6_2.Text" xml:space="preserve">
+    <value>customCheckBox23</value>
+  </data>
+  <data name="cCBEM7_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM7_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM7_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 208</value>
+  </data>
+  <data name="cCBEM7_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM7_1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="cCBEM7_1.Text" xml:space="preserve">
+    <value>customCheckBox24</value>
+  </data>
+  <data name="cCBEM7_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM7_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM7_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 208</value>
+  </data>
+  <data name="cCBEM7_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="cCBEM7_2.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="cCBEM7_2.Text" xml:space="preserve">
+    <value>customCheckBox25</value>
+  </data>
+  <data name="cCBEM8_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM8_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM8_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 238</value>
+  </data>
+  <data name="cCBEM8_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM8_1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="cCBEM8_1.Text" xml:space="preserve">
+    <value>customCheckBox26</value>
+  </data>
+  <data name="cCBEM9_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cCBEM9_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCBEM9_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 268</value>
+  </data>
+  <data name="cCBEM9_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cCBEM9_1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="cCBEM9_1.Text" xml:space="preserve">
+    <value>customCheckBox27</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAHh4AAAEAGABoCwAAFgAAACgAAAAeAAAAPAAAAAEAGAAAAAAAaAsAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXlhRXlhRXlhRXlhRAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABe
+        WFFeWFFeWFFeWFGotLmotLmotLmAlZpeWFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5YUV5YUV5YUdre4Ki0uai0uai0udre4Nre4Nre4Ki0uV5YUQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXlhRXlhRXlhRXlhRqLS5qLS5
+        qLS52t7g2t7g2t7g2t7g2t7g2t7g2t7gqLS5gJWaXlhRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABeWFFeWFFeWFFeWFGotLmotLmotLmotLna3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uCo
+        tLleWFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5YUV5YUai0uai0uai0uai0udre4Nre4Nre4Nre4Nre
+        4Nre4Nre4Nre4Nre4Nre4Nre4Nre4Nre4Nre4Nre4Ki0uYCVml5YUQAAAAAAAAAAAAAAAAAAAAAAXlhR
+        qLS5qLS52t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7g
+        2t7g2t7gqLS5XlhRAAAAAAAAAAAAAAAAAAAAAABeWFGAlZra3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa
+        3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uCotLmAlZpeWFEAAAAAAAAAAAAAAAAA
+        AAAAAF5YUai0udre4Nre4Nre4Nre4Nre4Nre4Nre4Nre4Ki0uVg9lExDvqi0udre4Nre4Nre4Nre4Nre
+        4Nre4Nre4Nre4Nre4Ki0uV5YUQAAAAAAAAAAAAAAAAAAAAAAXlhRgJWa2t7g2t7g2t7g2t7g2t7g2t7g
+        2t7g2t7gTEO+WlrOWlrOTEO+gJWaqLS52t7g2t7g2t7g2t7g2t7g2t7g2t7gqLS5gJWaXlhRAAAAAAAA
+        AAAAAAAAAAAAAABeWFGotLna3uDa3uDa3uDa3uDa3uDa3uCotLlYPZRaWs5aWs5YPZTa3uDa3uCAlZqA
+        lZqotLmotLna3uDa3uDa3uDa3uCotLleWFEAAAAAAAAAAAAAAAAAAAAAAF5YUYCVmtre4Nre4Nre4Nre
+        4Nre4Nre4ICVmtre4Fg9lExDvtre4Nre4Nre4Nre4Nre4Nre4Nre4ICVmoCVmqi0uai0uYCVmqi0uV5Y
+        UQAAAAAAAAAAAAAAAAAAAAAAXlhRqLS52t7g2t7g2t7g2t7gqLS52t7g2t7g2t7g2t7g2t7g2t7g2t7g
+        2t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7ggJWagJWaXlhRAAAAAAAAAAAAAAAAAAAAAABeWFGAlZra3uDa
+        3uDa3uDa3uCAlZra3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uDa3uBeWFFeWFFe
+        WFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5YUai0udre4Nre4ICVmtre4Nre4Nre4Nre4Nre4Nre4Nre
+        4Nre4Nre4Nre4Nre4F5YUV5YUV5YUV5YUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXlhR
+        gJWa2t7gqLS52t7g2t7g2t7g2t7g2t7g2t7g2t7g2t7gXlhRXlhRXlhRXlhRAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeWFGotLmAlZra3uDa3uDa3uDa3uDa3uBeWFFe
+        WFFeWFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAF5YUYCVmtre4Nre4F5YUV5YUV5YUV5YUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXlhRXlhRXlhRAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD////8/////P////z////8/////P//4fz//gD8//AA/P8AAHzwAAB8wAAAPIAAADyAAAAcwAAAHMAA
+        AAzgAAAM4AAABPAAAATwAAAM+AAAfPgAB/z8AH/8/AP//P4///z////8/////P////z////8/////P//
+        //w=
+</value>
   </data>
 </root>
