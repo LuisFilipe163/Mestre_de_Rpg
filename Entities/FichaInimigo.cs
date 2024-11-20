@@ -65,8 +65,6 @@ namespace Mestre_de_Rpg.Entities
 
                 string json = JsonConvert.SerializeObject(Inimigo, Formatting.Indented);
 
-                cadastroConcluido = true;
-
                 File.WriteAllText(caminhoArquivo, json);
             }
             catch (Exception ex)

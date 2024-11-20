@@ -1,5 +1,4 @@
-﻿using Mestre_de_Rpg.DB;
-using Mestre_de_Rpg.Entities;
+﻿using Mestre_de_Rpg.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -60,17 +59,17 @@ namespace Mestre_de_Rpg
         private void CarregarAventurasNoMenu()
         {
             tmsiAventurasReg.DropDownItems.Clear();
-            DataTable aventuras = DALAventura.CarregaAventuras();
-            foreach (DataRow row in aventuras.Rows)
-            {
-                string nomeAventura = row["nome"].ToString();
-                int idAventura = Convert.ToInt32(row["id_aventura"]);
-                ToolStripMenuItem aventuraItem = new(nomeAventura)
-                {
-                    Tag = idAventura
-                };
-                tmsiAventurasReg.DropDownItems.Add(aventuraItem);
-            }
+            //DataTable aventuras = DALAventura.CarregaAventuras();
+            //foreach (DataRow row in aventuras.Rows)
+            //{
+            //    string nomeAventura = row["nome"].ToString();
+            //    int idAventura = Convert.ToInt32(row["id_aventura"]);
+            //    ToolStripMenuItem aventuraItem = new(nomeAventura)
+            //    {
+            //        Tag = idAventura
+            //    };
+            //    tmsiAventurasReg.DropDownItems.Add(aventuraItem);
+            //}
         }
         #endregion
 

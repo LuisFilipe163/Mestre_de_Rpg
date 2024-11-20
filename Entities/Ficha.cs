@@ -4,11 +4,6 @@ namespace Mestre_de_Rpg.Entities
 {
     public abstract class Ficha 
     {
-        #region Variaveis
-        private string nomePersonagem;
-        private uint vidaMaximaPersonagem;
-        private uint classeArmadura;
-        public bool cadastroConcluido = false;
         enum EnumCondicao
         {
             Amedrontado = 0,
@@ -27,32 +22,22 @@ namespace Mestre_de_Rpg.Entities
             Preso,
             Surdo
         }
-        #endregion
 
         #region Propriedades
-        public string NomePersonagem
-        {
-            get { return nomePersonagem; }
-            set { nomePersonagem = value; }
-        }
-        public uint VidaMaximaPersonagem
-        {
-            get { return vidaMaximaPersonagem; }
-            set { vidaMaximaPersonagem = value; }
-        }
-        public uint ClasseArmadura
-        {
-            get { return classeArmadura; }
-            set { classeArmadura = value; }
-        }
+        public string NomePersonagem { get; set; } = string.Empty;
+
+        public uint VidaMaximaPersonagem { get; set; } = 0;
+
+        public uint ClasseArmadura { get; set; } = 0;
+        
         #endregion
 
         #region Construtor
         public Ficha(string nomePersonagem, uint vidaMaximaPersonagem, uint classeArmadura)
         {
-            this.nomePersonagem = nomePersonagem;
-            this.vidaMaximaPersonagem = vidaMaximaPersonagem;
-            this.classeArmadura = classeArmadura;
+            this.NomePersonagem = nomePersonagem;
+            this.VidaMaximaPersonagem = vidaMaximaPersonagem;
+            this.ClasseArmadura = classeArmadura;
         }
         #endregion
 

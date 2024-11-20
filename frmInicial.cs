@@ -1,5 +1,4 @@
 ﻿using Mesa_do_Mestre;
-using Mestre_de_Rpg.DB;
 using Mestre_de_Rpg.Entities;
 using Mestre_de_Rpg.Formularios_adicionais;
 using System;
@@ -161,7 +160,6 @@ namespace Mestre_de_Rpg
 
         private void frmInicial_Load(object sender, EventArgs e)
         {
-            BancoDados.InicializarBanco();
         }
 
         private void carregarJogadoresToolStripMenuItem_Click(object sender, EventArgs e)
@@ -185,9 +183,6 @@ namespace Mestre_de_Rpg
         {
             try
             {
-                DataTable dt = new DataTable();
-                dt = DALFichaJogador.CarregaJogadores();
-                dataGridView1.DataSource = dt;
             }
             catch (Exception ex)
             {
@@ -199,9 +194,6 @@ namespace Mestre_de_Rpg
         {
             try
             {
-                DataTable dt = new DataTable();
-                dt = DALAventura.CarregaAventuras();
-                dataGridView2.DataSource = dt;
             }
             catch (Exception ex)
             {
@@ -213,12 +205,6 @@ namespace Mestre_de_Rpg
         {
             try
             {
-                DataTable aventuras = DALAventura.CarregaAventuras();
-                foreach (DataRow row in aventuras.Rows)
-                {
-                    string nomeAventura = row["nome"].ToString();
-                    ToolStripMenuItem aventuraItem = new ToolStripMenuItem(nomeAventura);
-                }
                 ExibirAventura();
             }
             catch (Exception ex)
@@ -230,17 +216,17 @@ namespace Mestre_de_Rpg
         private void CarregarAventurasNoMenu()
         {
             tsmiAventuras.DropDownItems.Clear();
-            DataTable aventuras = DALAventura.CarregaAventuras();
-            foreach (DataRow row in aventuras.Rows)
-            {
-                string nomeAventura = row["nome"].ToString();
-                int idAventura = Convert.ToInt32(row["id_aventura"]);
-                ToolStripMenuItem aventuraItem = new(nomeAventura)
-                {
-                    Tag = idAventura
-                };
-                tsmiAventuras.DropDownItems.Add(aventuraItem);
-            }
+            //DataTable aventuras = DALAventura.CarregaAventuras();
+            //foreach (DataRow row in aventuras.Rows)
+            //{
+            //    string nomeAventura = row["nome"].ToString();
+            //    int idAventura = Convert.ToInt32(row["id_aventura"]);
+            //    ToolStripMenuItem aventuraItem = new(nomeAventura)
+            //    {
+            //        Tag = idAventura
+            //    };
+            //    tsmiAventuras.DropDownItems.Add(aventuraItem);
+            //}
         }
 
         private void tsmiRemoverAventura_Click(object sender, EventArgs e)
@@ -253,7 +239,6 @@ namespace Mestre_de_Rpg
 
         private void button1_Click(object sender, EventArgs e)
         {
-            BancoDados.ExcluirTabelas();
             ExibirAventura();
             ExibirJogadores();
             CarregarAventurasNoMenu();

@@ -1,5 +1,4 @@
-﻿using Mestre_de_Rpg.DB;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
@@ -12,32 +11,19 @@ namespace Mestre_de_Rpg.Entities
 {
     public class Aventura
     {
-        private string nome;
-        private int id;
+        public string Nome { get; set; }
+        
+        public int ID { get; set; }
 
-        public string Nome 
-        { 
-            get { return nome; }
-            set { nome = value; }
-        }
+        public ICollection<FichaJogador> Jogadores { get; set; } = null!;
 
-        public int ID
-        {
-            get { return id; }
-            set { id = value; }
-        }
-
-        public Aventura(string Nome) 
-        {
-            this.nome = Nome;
-        }
 
 
         public void RegistraAventura()
         {
             try
             {
-                DALAventura.RegistraAventura(this);
+                
             }
             catch (Exception ex)
             {
