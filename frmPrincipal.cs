@@ -29,8 +29,6 @@ namespace Mestre_de_Rpg
         private readonly string botaoClicadod20 = @"..\..\..\Icons\D20_selected.png";
         private readonly string botaoNormald100 = @"..\..\..\Icons\D100_default.png";
         private readonly string botaoClicadod100 = @"..\..\..\Icons\D100_selected.png";
-        private readonly string deathsaveunchecked = @"..\..\..\Icons\Radio_button_unchecked.png";
-        private readonly string deathsavechecked = @"..\..\..\Icons\Radio_button_checked.png";
 
 
         public frmPrincipal()
